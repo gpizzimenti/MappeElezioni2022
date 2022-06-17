@@ -1,0 +1,2532 @@
+[
+    {
+        "Area": "",
+        "Sezione": 1,
+        "Elettori maschi": 931,
+        "Votanti maschi": 156,
+        "Elettori femmine": 761,
+        "Votanti femmine": 165,
+        "Elettori": 1692,
+        "Votanti": 321
+    },
+    {
+        "Area": "",
+        "Sezione": 2,
+        "Elettori maschi": 456,
+        "Votanti maschi": 230,
+        "Elettori femmine": 464,
+        "Votanti femmine": 241,
+        "Elettori": 920,
+        "Votanti": 471
+    },
+    {
+        "Area": "",
+        "Sezione": 3,
+        "Elettori maschi": 256,
+        "Votanti maschi": 144,
+        "Elettori femmine": 281,
+        "Votanti femmine": 126,
+        "Elettori": 537,
+        "Votanti": 270
+    },
+    {
+        "Area": "",
+        "Sezione": 4,
+        "Elettori maschi": 306,
+        "Votanti maschi": 168,
+        "Elettori femmine": 295,
+        "Votanti femmine": 168,
+        "Elettori": 601,
+        "Votanti": 336
+    },
+    {
+        "Area": "",
+        "Sezione": 5,
+        "Elettori maschi": 68,
+        "Votanti maschi": 28,
+        "Elettori femmine": 66,
+        "Votanti femmine": 26,
+        "Elettori": 134,
+        "Votanti": 54
+    },
+    {
+        "Area": "",
+        "Sezione": 6,
+        "Elettori maschi": 161,
+        "Votanti maschi": 72,
+        "Elettori femmine": 139,
+        "Votanti femmine": 68,
+        "Elettori": 300,
+        "Votanti": 140
+    },
+    {
+        "Area": "",
+        "Sezione": 7,
+        "Elettori maschi": 389,
+        "Votanti maschi": 251,
+        "Elettori femmine": 405,
+        "Votanti femmine": 250,
+        "Elettori": 794,
+        "Votanti": 501
+    },
+    {
+        "Area": "",
+        "Sezione": 8,
+        "Elettori maschi": 220,
+        "Votanti maschi": 123,
+        "Elettori femmine": 228,
+        "Votanti femmine": 133,
+        "Elettori": 448,
+        "Votanti": 256
+    },
+    {
+        "Area": "",
+        "Sezione": 9,
+        "Elettori maschi": 218,
+        "Votanti maschi": 137,
+        "Elettori femmine": 211,
+        "Votanti femmine": 124,
+        "Elettori": 429,
+        "Votanti": 261
+    },
+    {
+        "Area": "",
+        "Sezione": 10,
+        "Elettori maschi": 488,
+        "Votanti maschi": 280,
+        "Elettori femmine": 541,
+        "Votanti femmine": 293,
+        "Elettori": 1029,
+        "Votanti": 573
+    },
+    {
+        "Area": "",
+        "Sezione": 11,
+        "Elettori maschi": 468,
+        "Votanti maschi": 290,
+        "Elettori femmine": 515,
+        "Votanti femmine": 300,
+        "Elettori": 983,
+        "Votanti": 590
+    },
+    {
+        "Area": "",
+        "Sezione": 12,
+        "Elettori maschi": 418,
+        "Votanti maschi": 246,
+        "Elettori femmine": 490,
+        "Votanti femmine": 273,
+        "Elettori": 908,
+        "Votanti": 519
+    },
+    {
+        "Area": "",
+        "Sezione": 13,
+        "Elettori maschi": 344,
+        "Votanti maschi": 211,
+        "Elettori femmine": 369,
+        "Votanti femmine": 207,
+        "Elettori": 713,
+        "Votanti": 418
+    },
+    {
+        "Area": "",
+        "Sezione": 14,
+        "Elettori maschi": 497,
+        "Votanti maschi": 280,
+        "Elettori femmine": 545,
+        "Votanti femmine": 300,
+        "Elettori": 1042,
+        "Votanti": 580
+    },
+    {
+        "Area": "",
+        "Sezione": 15,
+        "Elettori maschi": 287,
+        "Votanti maschi": 181,
+        "Elettori femmine": 284,
+        "Votanti femmine": 184,
+        "Elettori": 571,
+        "Votanti": 365
+    },
+    {
+        "Area": "",
+        "Sezione": 16,
+        "Elettori maschi": 319,
+        "Votanti maschi": 215,
+        "Elettori femmine": 328,
+        "Votanti femmine": 200,
+        "Elettori": 647,
+        "Votanti": 415
+    },
+    {
+        "Area": "",
+        "Sezione": 17,
+        "Elettori maschi": 322,
+        "Votanti maschi": 226,
+        "Elettori femmine": 389,
+        "Votanti femmine": 258,
+        "Elettori": 711,
+        "Votanti": 484
+    },
+    {
+        "Area": "",
+        "Sezione": 18,
+        "Elettori maschi": 277,
+        "Votanti maschi": 180,
+        "Elettori femmine": 303,
+        "Votanti femmine": 205,
+        "Elettori": 580,
+        "Votanti": 385
+    },
+    {
+        "Area": "",
+        "Sezione": 19,
+        "Elettori maschi": 358,
+        "Votanti maschi": 218,
+        "Elettori femmine": 402,
+        "Votanti femmine": 229,
+        "Elettori": 760,
+        "Votanti": 447
+    },
+    {
+        "Area": "",
+        "Sezione": 20,
+        "Elettori maschi": 479,
+        "Votanti maschi": 261,
+        "Elettori femmine": 538,
+        "Votanti femmine": 286,
+        "Elettori": 1017,
+        "Votanti": 547
+    },
+    {
+        "Area": "",
+        "Sezione": 21,
+        "Elettori maschi": 413,
+        "Votanti maschi": 227,
+        "Elettori femmine": 445,
+        "Votanti femmine": 244,
+        "Elettori": 858,
+        "Votanti": 471
+    },
+    {
+        "Area": "",
+        "Sezione": 22,
+        "Elettori maschi": 225,
+        "Votanti maschi": 150,
+        "Elettori femmine": 277,
+        "Votanti femmine": 190,
+        "Elettori": 502,
+        "Votanti": 340
+    },
+    {
+        "Area": "",
+        "Sezione": 23,
+        "Elettori maschi": 95,
+        "Votanti maschi": 69,
+        "Elettori femmine": 101,
+        "Votanti femmine": 70,
+        "Elettori": 196,
+        "Votanti": 139
+    },
+    {
+        "Area": "",
+        "Sezione": 24,
+        "Elettori maschi": 443,
+        "Votanti maschi": 256,
+        "Elettori femmine": 497,
+        "Votanti femmine": 267,
+        "Elettori": 940,
+        "Votanti": 523
+    },
+    {
+        "Area": "",
+        "Sezione": 25,
+        "Elettori maschi": 472,
+        "Votanti maschi": 265,
+        "Elettori femmine": 549,
+        "Votanti femmine": 281,
+        "Elettori": 1021,
+        "Votanti": 546
+    },
+    {
+        "Area": "",
+        "Sezione": 26,
+        "Elettori maschi": 330,
+        "Votanti maschi": 209,
+        "Elettori femmine": 342,
+        "Votanti femmine": 222,
+        "Elettori": 672,
+        "Votanti": 431
+    },
+    {
+        "Area": "",
+        "Sezione": 27,
+        "Elettori maschi": 254,
+        "Votanti maschi": 167,
+        "Elettori femmine": 264,
+        "Votanti femmine": 167,
+        "Elettori": 518,
+        "Votanti": 334
+    },
+    {
+        "Area": "",
+        "Sezione": 28,
+        "Elettori maschi": 468,
+        "Votanti maschi": 250,
+        "Elettori femmine": 545,
+        "Votanti femmine": 279,
+        "Elettori": 1013,
+        "Votanti": 529
+    },
+    {
+        "Area": "",
+        "Sezione": 29,
+        "Elettori maschi": 522,
+        "Votanti maschi": 312,
+        "Elettori femmine": 613,
+        "Votanti femmine": 340,
+        "Elettori": 1135,
+        "Votanti": 652
+    },
+    {
+        "Area": "",
+        "Sezione": 30,
+        "Elettori maschi": 541,
+        "Votanti maschi": 286,
+        "Elettori femmine": 585,
+        "Votanti femmine": 285,
+        "Elettori": 1126,
+        "Votanti": 571
+    },
+    {
+        "Area": "",
+        "Sezione": 31,
+        "Elettori maschi": 571,
+        "Votanti maschi": 306,
+        "Elettori femmine": 606,
+        "Votanti femmine": 310,
+        "Elettori": 1177,
+        "Votanti": 616
+    },
+    {
+        "Area": "",
+        "Sezione": 32,
+        "Elettori maschi": 345,
+        "Votanti maschi": 218,
+        "Elettori femmine": 350,
+        "Votanti femmine": 209,
+        "Elettori": 695,
+        "Votanti": 427
+    },
+    {
+        "Area": "",
+        "Sezione": 33,
+        "Elettori maschi": 328,
+        "Votanti maschi": 208,
+        "Elettori femmine": 386,
+        "Votanti femmine": 228,
+        "Elettori": 714,
+        "Votanti": 436
+    },
+    {
+        "Area": "",
+        "Sezione": 34,
+        "Elettori maschi": 368,
+        "Votanti maschi": 210,
+        "Elettori femmine": 394,
+        "Votanti femmine": 207,
+        "Elettori": 762,
+        "Votanti": 417
+    },
+    {
+        "Area": "",
+        "Sezione": 35,
+        "Elettori maschi": 466,
+        "Votanti maschi": 288,
+        "Elettori femmine": 537,
+        "Votanti femmine": 310,
+        "Elettori": 1003,
+        "Votanti": 598
+    },
+    {
+        "Area": "",
+        "Sezione": 36,
+        "Elettori maschi": 273,
+        "Votanti maschi": 158,
+        "Elettori femmine": 312,
+        "Votanti femmine": 168,
+        "Elettori": 585,
+        "Votanti": 326
+    },
+    {
+        "Area": "",
+        "Sezione": 37,
+        "Elettori maschi": 336,
+        "Votanti maschi": 208,
+        "Elettori femmine": 392,
+        "Votanti femmine": 238,
+        "Elettori": 728,
+        "Votanti": 446
+    },
+    {
+        "Area": "",
+        "Sezione": 38,
+        "Elettori maschi": 405,
+        "Votanti maschi": 233,
+        "Elettori femmine": 450,
+        "Votanti femmine": 260,
+        "Elettori": 855,
+        "Votanti": 493
+    },
+    {
+        "Area": "",
+        "Sezione": 39,
+        "Elettori maschi": 454,
+        "Votanti maschi": 254,
+        "Elettori femmine": 491,
+        "Votanti femmine": 265,
+        "Elettori": 945,
+        "Votanti": 519
+    },
+    {
+        "Area": "",
+        "Sezione": 40,
+        "Elettori maschi": 495,
+        "Votanti maschi": 283,
+        "Elettori femmine": 567,
+        "Votanti femmine": 271,
+        "Elettori": 1062,
+        "Votanti": 554
+    },
+    {
+        "Area": "",
+        "Sezione": 41,
+        "Elettori maschi": 440,
+        "Votanti maschi": 288,
+        "Elettori femmine": 484,
+        "Votanti femmine": 300,
+        "Elettori": 924,
+        "Votanti": 588
+    },
+    {
+        "Area": "",
+        "Sezione": 42,
+        "Elettori maschi": 539,
+        "Votanti maschi": 295,
+        "Elettori femmine": 567,
+        "Votanti femmine": 317,
+        "Elettori": 1106,
+        "Votanti": 612
+    },
+    {
+        "Area": "",
+        "Sezione": 43,
+        "Elettori maschi": 338,
+        "Votanti maschi": 215,
+        "Elettori femmine": 374,
+        "Votanti femmine": 206,
+        "Elettori": 712,
+        "Votanti": 421
+    },
+    {
+        "Area": "",
+        "Sezione": 44,
+        "Elettori maschi": 378,
+        "Votanti maschi": 239,
+        "Elettori femmine": 410,
+        "Votanti femmine": 221,
+        "Elettori": 788,
+        "Votanti": 460
+    },
+    {
+        "Area": "",
+        "Sezione": 45,
+        "Elettori maschi": 508,
+        "Votanti maschi": 316,
+        "Elettori femmine": 555,
+        "Votanti femmine": 274,
+        "Elettori": 1063,
+        "Votanti": 590
+    },
+    {
+        "Area": "",
+        "Sezione": 46,
+        "Elettori maschi": 555,
+        "Votanti maschi": 280,
+        "Elettori femmine": 587,
+        "Votanti femmine": 298,
+        "Elettori": 1142,
+        "Votanti": 578
+    },
+    {
+        "Area": "",
+        "Sezione": 47,
+        "Elettori maschi": 386,
+        "Votanti maschi": 179,
+        "Elettori femmine": 398,
+        "Votanti femmine": 201,
+        "Elettori": 784,
+        "Votanti": 380
+    },
+    {
+        "Area": "",
+        "Sezione": 48,
+        "Elettori maschi": 519,
+        "Votanti maschi": 246,
+        "Elettori femmine": 579,
+        "Votanti femmine": 275,
+        "Elettori": 1098,
+        "Votanti": 521
+    },
+    {
+        "Area": "",
+        "Sezione": 49,
+        "Elettori maschi": 335,
+        "Votanti maschi": 169,
+        "Elettori femmine": 409,
+        "Votanti femmine": 203,
+        "Elettori": 744,
+        "Votanti": 372
+    },
+    {
+        "Area": "",
+        "Sezione": 50,
+        "Elettori maschi": 474,
+        "Votanti maschi": 221,
+        "Elettori femmine": 516,
+        "Votanti femmine": 257,
+        "Elettori": 990,
+        "Votanti": 478
+    },
+    {
+        "Area": "",
+        "Sezione": 51,
+        "Elettori maschi": 283,
+        "Votanti maschi": 164,
+        "Elettori femmine": 304,
+        "Votanti femmine": 157,
+        "Elettori": 587,
+        "Votanti": 321
+    },
+    {
+        "Area": "",
+        "Sezione": 52,
+        "Elettori maschi": 371,
+        "Votanti maschi": 221,
+        "Elettori femmine": 388,
+        "Votanti femmine": 230,
+        "Elettori": 759,
+        "Votanti": 451
+    },
+    {
+        "Area": "",
+        "Sezione": 53,
+        "Elettori maschi": 281,
+        "Votanti maschi": 165,
+        "Elettori femmine": 330,
+        "Votanti femmine": 180,
+        "Elettori": 611,
+        "Votanti": 345
+    },
+    {
+        "Area": "",
+        "Sezione": 54,
+        "Elettori maschi": 251,
+        "Votanti maschi": 165,
+        "Elettori femmine": 332,
+        "Votanti femmine": 187,
+        "Elettori": 583,
+        "Votanti": 352
+    },
+    {
+        "Area": "",
+        "Sezione": 55,
+        "Elettori maschi": 406,
+        "Votanti maschi": 236,
+        "Elettori femmine": 440,
+        "Votanti femmine": 248,
+        "Elettori": 846,
+        "Votanti": 484
+    },
+    {
+        "Area": "",
+        "Sezione": 56,
+        "Elettori maschi": 277,
+        "Votanti maschi": 162,
+        "Elettori femmine": 320,
+        "Votanti femmine": 178,
+        "Elettori": 597,
+        "Votanti": 340
+    },
+    {
+        "Area": "",
+        "Sezione": 57,
+        "Elettori maschi": 414,
+        "Votanti maschi": 253,
+        "Elettori femmine": 441,
+        "Votanti femmine": 253,
+        "Elettori": 855,
+        "Votanti": 506
+    },
+    {
+        "Area": "",
+        "Sezione": 58,
+        "Elettori maschi": 279,
+        "Votanti maschi": 146,
+        "Elettori femmine": 293,
+        "Votanti femmine": 145,
+        "Elettori": 572,
+        "Votanti": 291
+    },
+    {
+        "Area": "",
+        "Sezione": 59,
+        "Elettori maschi": 315,
+        "Votanti maschi": 180,
+        "Elettori femmine": 343,
+        "Votanti femmine": 176,
+        "Elettori": 658,
+        "Votanti": 356
+    },
+    {
+        "Area": "",
+        "Sezione": 60,
+        "Elettori maschi": 498,
+        "Votanti maschi": 303,
+        "Elettori femmine": 508,
+        "Votanti femmine": 287,
+        "Elettori": 1006,
+        "Votanti": 590
+    },
+    {
+        "Area": "",
+        "Sezione": 61,
+        "Elettori maschi": 218,
+        "Votanti maschi": 128,
+        "Elettori femmine": 229,
+        "Votanti femmine": 127,
+        "Elettori": 447,
+        "Votanti": 255
+    },
+    {
+        "Area": "",
+        "Sezione": 62,
+        "Elettori maschi": 306,
+        "Votanti maschi": 206,
+        "Elettori femmine": 342,
+        "Votanti femmine": 222,
+        "Elettori": 648,
+        "Votanti": 428
+    },
+    {
+        "Area": "",
+        "Sezione": 63,
+        "Elettori maschi": 356,
+        "Votanti maschi": 207,
+        "Elettori femmine": 352,
+        "Votanti femmine": 182,
+        "Elettori": 708,
+        "Votanti": 389
+    },
+    {
+        "Area": "",
+        "Sezione": 64,
+        "Elettori maschi": 317,
+        "Votanti maschi": 167,
+        "Elettori femmine": 335,
+        "Votanti femmine": 175,
+        "Elettori": 652,
+        "Votanti": 342
+    },
+    {
+        "Area": "",
+        "Sezione": 65,
+        "Elettori maschi": 367,
+        "Votanti maschi": 194,
+        "Elettori femmine": 357,
+        "Votanti femmine": 182,
+        "Elettori": 724,
+        "Votanti": 376
+    },
+    {
+        "Area": "",
+        "Sezione": 66,
+        "Elettori maschi": 351,
+        "Votanti maschi": 189,
+        "Elettori femmine": 458,
+        "Votanti femmine": 218,
+        "Elettori": 809,
+        "Votanti": 407
+    },
+    {
+        "Area": "",
+        "Sezione": 67,
+        "Elettori maschi": 312,
+        "Votanti maschi": 163,
+        "Elettori femmine": 339,
+        "Votanti femmine": 176,
+        "Elettori": 651,
+        "Votanti": 339
+    },
+    {
+        "Area": "",
+        "Sezione": 68,
+        "Elettori maschi": 260,
+        "Votanti maschi": 151,
+        "Elettori femmine": 316,
+        "Votanti femmine": 179,
+        "Elettori": 576,
+        "Votanti": 330
+    },
+    {
+        "Area": "",
+        "Sezione": 69,
+        "Elettori maschi": 310,
+        "Votanti maschi": 152,
+        "Elettori femmine": 389,
+        "Votanti femmine": 187,
+        "Elettori": 699,
+        "Votanti": 339
+    },
+    {
+        "Area": "",
+        "Sezione": 70,
+        "Elettori maschi": 343,
+        "Votanti maschi": 186,
+        "Elettori femmine": 380,
+        "Votanti femmine": 204,
+        "Elettori": 723,
+        "Votanti": 390
+    },
+    {
+        "Area": "",
+        "Sezione": 71,
+        "Elettori maschi": 337,
+        "Votanti maschi": 169,
+        "Elettori femmine": 354,
+        "Votanti femmine": 166,
+        "Elettori": 691,
+        "Votanti": 335
+    },
+    {
+        "Area": "",
+        "Sezione": 72,
+        "Elettori maschi": 370,
+        "Votanti maschi": 181,
+        "Elettori femmine": 420,
+        "Votanti femmine": 199,
+        "Elettori": 790,
+        "Votanti": 380
+    },
+    {
+        "Area": "",
+        "Sezione": 73,
+        "Elettori maschi": 379,
+        "Votanti maschi": 206,
+        "Elettori femmine": 431,
+        "Votanti femmine": 242,
+        "Elettori": 810,
+        "Votanti": 448
+    },
+    {
+        "Area": "",
+        "Sezione": 74,
+        "Elettori maschi": 328,
+        "Votanti maschi": 181,
+        "Elettori femmine": 383,
+        "Votanti femmine": 198,
+        "Elettori": 711,
+        "Votanti": 379
+    },
+    {
+        "Area": "",
+        "Sezione": 75,
+        "Elettori maschi": 357,
+        "Votanti maschi": 196,
+        "Elettori femmine": 409,
+        "Votanti femmine": 209,
+        "Elettori": 766,
+        "Votanti": 405
+    },
+    {
+        "Area": "",
+        "Sezione": 76,
+        "Elettori maschi": 357,
+        "Votanti maschi": 202,
+        "Elettori femmine": 390,
+        "Votanti femmine": 215,
+        "Elettori": 747,
+        "Votanti": 417
+    },
+    {
+        "Area": "",
+        "Sezione": 77,
+        "Elettori maschi": 287,
+        "Votanti maschi": 160,
+        "Elettori femmine": 349,
+        "Votanti femmine": 175,
+        "Elettori": 636,
+        "Votanti": 335
+    },
+    {
+        "Area": "",
+        "Sezione": 78,
+        "Elettori maschi": 334,
+        "Votanti maschi": 203,
+        "Elettori femmine": 382,
+        "Votanti femmine": 246,
+        "Elettori": 716,
+        "Votanti": 449
+    },
+    {
+        "Area": "",
+        "Sezione": 79,
+        "Elettori maschi": 345,
+        "Votanti maschi": 195,
+        "Elettori femmine": 418,
+        "Votanti femmine": 213,
+        "Elettori": 763,
+        "Votanti": 408
+    },
+    {
+        "Area": "",
+        "Sezione": 80,
+        "Elettori maschi": 353,
+        "Votanti maschi": 207,
+        "Elettori femmine": 420,
+        "Votanti femmine": 211,
+        "Elettori": 773,
+        "Votanti": 418
+    },
+    {
+        "Area": "",
+        "Sezione": 81,
+        "Elettori maschi": 337,
+        "Votanti maschi": 203,
+        "Elettori femmine": 373,
+        "Votanti femmine": 208,
+        "Elettori": 710,
+        "Votanti": 411
+    },
+    {
+        "Area": "",
+        "Sezione": 82,
+        "Elettori maschi": 276,
+        "Votanti maschi": 148,
+        "Elettori femmine": 325,
+        "Votanti femmine": 149,
+        "Elettori": 601,
+        "Votanti": 297
+    },
+    {
+        "Area": "",
+        "Sezione": 83,
+        "Elettori maschi": 353,
+        "Votanti maschi": 191,
+        "Elettori femmine": 378,
+        "Votanti femmine": 181,
+        "Elettori": 731,
+        "Votanti": 372
+    },
+    {
+        "Area": "",
+        "Sezione": 84,
+        "Elettori maschi": 301,
+        "Votanti maschi": 183,
+        "Elettori femmine": 369,
+        "Votanti femmine": 209,
+        "Elettori": 670,
+        "Votanti": 392
+    },
+    {
+        "Area": "",
+        "Sezione": 85,
+        "Elettori maschi": 409,
+        "Votanti maschi": 270,
+        "Elettori femmine": 467,
+        "Votanti femmine": 284,
+        "Elettori": 876,
+        "Votanti": 554
+    },
+    {
+        "Area": "",
+        "Sezione": 86,
+        "Elettori maschi": 308,
+        "Votanti maschi": 160,
+        "Elettori femmine": 379,
+        "Votanti femmine": 193,
+        "Elettori": 687,
+        "Votanti": 353
+    },
+    {
+        "Area": "",
+        "Sezione": 87,
+        "Elettori maschi": 292,
+        "Votanti maschi": 155,
+        "Elettori femmine": 334,
+        "Votanti femmine": 173,
+        "Elettori": 626,
+        "Votanti": 328
+    },
+    {
+        "Area": "",
+        "Sezione": 88,
+        "Elettori maschi": 346,
+        "Votanti maschi": 200,
+        "Elettori femmine": 374,
+        "Votanti femmine": 217,
+        "Elettori": 720,
+        "Votanti": 417
+    },
+    {
+        "Area": "",
+        "Sezione": 89,
+        "Elettori maschi": 301,
+        "Votanti maschi": 178,
+        "Elettori femmine": 314,
+        "Votanti femmine": 154,
+        "Elettori": 615,
+        "Votanti": 332
+    },
+    {
+        "Area": "",
+        "Sezione": 90,
+        "Elettori maschi": 391,
+        "Votanti maschi": 190,
+        "Elettori femmine": 456,
+        "Votanti femmine": 231,
+        "Elettori": 847,
+        "Votanti": 421
+    },
+    {
+        "Area": "",
+        "Sezione": 91,
+        "Elettori maschi": 364,
+        "Votanti maschi": 186,
+        "Elettori femmine": 383,
+        "Votanti femmine": 178,
+        "Elettori": 747,
+        "Votanti": 364
+    },
+    {
+        "Area": "",
+        "Sezione": 92,
+        "Elettori maschi": 340,
+        "Votanti maschi": 152,
+        "Elettori femmine": 391,
+        "Votanti femmine": 151,
+        "Elettori": 731,
+        "Votanti": 303
+    },
+    {
+        "Area": "",
+        "Sezione": 93,
+        "Elettori maschi": 426,
+        "Votanti maschi": 193,
+        "Elettori femmine": 486,
+        "Votanti femmine": 231,
+        "Elettori": 912,
+        "Votanti": 424
+    },
+    {
+        "Area": "",
+        "Sezione": 94,
+        "Elettori maschi": 368,
+        "Votanti maschi": 215,
+        "Elettori femmine": 393,
+        "Votanti femmine": 193,
+        "Elettori": 761,
+        "Votanti": 408
+    },
+    {
+        "Area": "",
+        "Sezione": 95,
+        "Elettori maschi": 428,
+        "Votanti maschi": 282,
+        "Elettori femmine": 460,
+        "Votanti femmine": 265,
+        "Elettori": 888,
+        "Votanti": 547
+    },
+    {
+        "Area": "",
+        "Sezione": 96,
+        "Elettori maschi": 315,
+        "Votanti maschi": 189,
+        "Elettori femmine": 338,
+        "Votanti femmine": 181,
+        "Elettori": 653,
+        "Votanti": 370
+    },
+    {
+        "Area": "",
+        "Sezione": 97,
+        "Elettori maschi": 340,
+        "Votanti maschi": 214,
+        "Elettori femmine": 351,
+        "Votanti femmine": 192,
+        "Elettori": 691,
+        "Votanti": 406
+    },
+    {
+        "Area": "",
+        "Sezione": 98,
+        "Elettori maschi": 458,
+        "Votanti maschi": 304,
+        "Elettori femmine": 534,
+        "Votanti femmine": 327,
+        "Elettori": 992,
+        "Votanti": 631
+    },
+    {
+        "Area": "",
+        "Sezione": 99,
+        "Elettori maschi": 394,
+        "Votanti maschi": 253,
+        "Elettori femmine": 452,
+        "Votanti femmine": 263,
+        "Elettori": 846,
+        "Votanti": 516
+    },
+    {
+        "Area": "",
+        "Sezione": 100,
+        "Elettori maschi": 422,
+        "Votanti maschi": 258,
+        "Elettori femmine": 459,
+        "Votanti femmine": 290,
+        "Elettori": 881,
+        "Votanti": 548
+    },
+    {
+        "Area": "",
+        "Sezione": 101,
+        "Elettori maschi": 324,
+        "Votanti maschi": 213,
+        "Elettori femmine": 348,
+        "Votanti femmine": 223,
+        "Elettori": 672,
+        "Votanti": 436
+    },
+    {
+        "Area": "",
+        "Sezione": 102,
+        "Elettori maschi": 433,
+        "Votanti maschi": 263,
+        "Elettori femmine": 475,
+        "Votanti femmine": 259,
+        "Elettori": 908,
+        "Votanti": 522
+    },
+    {
+        "Area": "",
+        "Sezione": 103,
+        "Elettori maschi": 361,
+        "Votanti maschi": 214,
+        "Elettori femmine": 464,
+        "Votanti femmine": 263,
+        "Elettori": 825,
+        "Votanti": 477
+    },
+    {
+        "Area": "",
+        "Sezione": 104,
+        "Elettori maschi": 372,
+        "Votanti maschi": 246,
+        "Elettori femmine": 429,
+        "Votanti femmine": 234,
+        "Elettori": 801,
+        "Votanti": 480
+    },
+    {
+        "Area": "",
+        "Sezione": 105,
+        "Elettori maschi": 387,
+        "Votanti maschi": 209,
+        "Elettori femmine": 469,
+        "Votanti femmine": 234,
+        "Elettori": 856,
+        "Votanti": 443
+    },
+    {
+        "Area": "",
+        "Sezione": 106,
+        "Elettori maschi": 379,
+        "Votanti maschi": 180,
+        "Elettori femmine": 446,
+        "Votanti femmine": 191,
+        "Elettori": 825,
+        "Votanti": 371
+    },
+    {
+        "Area": "",
+        "Sezione": 107,
+        "Elettori maschi": 303,
+        "Votanti maschi": 172,
+        "Elettori femmine": 351,
+        "Votanti femmine": 184,
+        "Elettori": 654,
+        "Votanti": 356
+    },
+    {
+        "Area": "",
+        "Sezione": 108,
+        "Elettori maschi": 299,
+        "Votanti maschi": 167,
+        "Elettori femmine": 378,
+        "Votanti femmine": 206,
+        "Elettori": 677,
+        "Votanti": 373
+    },
+    {
+        "Area": "",
+        "Sezione": 109,
+        "Elettori maschi": 430,
+        "Votanti maschi": 273,
+        "Elettori femmine": 466,
+        "Votanti femmine": 284,
+        "Elettori": 896,
+        "Votanti": 557
+    },
+    {
+        "Area": "",
+        "Sezione": 110,
+        "Elettori maschi": 427,
+        "Votanti maschi": 255,
+        "Elettori femmine": 447,
+        "Votanti femmine": 258,
+        "Elettori": 874,
+        "Votanti": 513
+    },
+    {
+        "Area": "",
+        "Sezione": 111,
+        "Elettori maschi": 484,
+        "Votanti maschi": 294,
+        "Elettori femmine": 565,
+        "Votanti femmine": 316,
+        "Elettori": 1049,
+        "Votanti": 610
+    },
+    {
+        "Area": "",
+        "Sezione": 112,
+        "Elettori maschi": 377,
+        "Votanti maschi": 66,
+        "Elettori femmine": 444,
+        "Votanti femmine": 77,
+        "Elettori": 821,
+        "Votanti": 143
+    },
+    {
+        "Area": "",
+        "Sezione": 113,
+        "Elettori maschi": 391,
+        "Votanti maschi": 157,
+        "Elettori femmine": 430,
+        "Votanti femmine": 162,
+        "Elettori": 821,
+        "Votanti": 319
+    },
+    {
+        "Area": "",
+        "Sezione": 114,
+        "Elettori maschi": 428,
+        "Votanti maschi": 269,
+        "Elettori femmine": 505,
+        "Votanti femmine": 280,
+        "Elettori": 933,
+        "Votanti": 549
+    },
+    {
+        "Area": "",
+        "Sezione": 115,
+        "Elettori maschi": 382,
+        "Votanti maschi": 157,
+        "Elettori femmine": 427,
+        "Votanti femmine": 164,
+        "Elettori": 809,
+        "Votanti": 321
+    },
+    {
+        "Area": "",
+        "Sezione": 116,
+        "Elettori maschi": 412,
+        "Votanti maschi": 72,
+        "Elettori femmine": 459,
+        "Votanti femmine": 91,
+        "Elettori": 871,
+        "Votanti": 163
+    },
+    {
+        "Area": "",
+        "Sezione": 117,
+        "Elettori maschi": 446,
+        "Votanti maschi": 258,
+        "Elettori femmine": 516,
+        "Votanti femmine": 280,
+        "Elettori": 962,
+        "Votanti": 538
+    },
+    {
+        "Area": "",
+        "Sezione": 118,
+        "Elettori maschi": 350,
+        "Votanti maschi": 194,
+        "Elettori femmine": 454,
+        "Votanti femmine": 249,
+        "Elettori": 804,
+        "Votanti": 443
+    },
+    {
+        "Area": "",
+        "Sezione": 119,
+        "Elettori maschi": 365,
+        "Votanti maschi": 206,
+        "Elettori femmine": 463,
+        "Votanti femmine": 249,
+        "Elettori": 828,
+        "Votanti": 455
+    },
+    {
+        "Area": "",
+        "Sezione": 120,
+        "Elettori maschi": 333,
+        "Votanti maschi": 180,
+        "Elettori femmine": 403,
+        "Votanti femmine": 230,
+        "Elettori": 736,
+        "Votanti": 410
+    },
+    {
+        "Area": "",
+        "Sezione": 121,
+        "Elettori maschi": 367,
+        "Votanti maschi": 216,
+        "Elettori femmine": 433,
+        "Votanti femmine": 246,
+        "Elettori": 800,
+        "Votanti": 462
+    },
+    {
+        "Area": "",
+        "Sezione": 122,
+        "Elettori maschi": 390,
+        "Votanti maschi": 234,
+        "Elettori femmine": 428,
+        "Votanti femmine": 242,
+        "Elettori": 818,
+        "Votanti": 476
+    },
+    {
+        "Area": "",
+        "Sezione": 123,
+        "Elettori maschi": 400,
+        "Votanti maschi": 243,
+        "Elettori femmine": 444,
+        "Votanti femmine": 238,
+        "Elettori": 844,
+        "Votanti": 481
+    },
+    {
+        "Area": "",
+        "Sezione": 124,
+        "Elettori maschi": 407,
+        "Votanti maschi": 245,
+        "Elettori femmine": 469,
+        "Votanti femmine": 264,
+        "Elettori": 876,
+        "Votanti": 509
+    },
+    {
+        "Area": "",
+        "Sezione": 125,
+        "Elettori maschi": 385,
+        "Votanti maschi": 230,
+        "Elettori femmine": 450,
+        "Votanti femmine": 250,
+        "Elettori": 835,
+        "Votanti": 480
+    },
+    {
+        "Area": "",
+        "Sezione": 126,
+        "Elettori maschi": 348,
+        "Votanti maschi": 191,
+        "Elettori femmine": 408,
+        "Votanti femmine": 217,
+        "Elettori": 756,
+        "Votanti": 408
+    },
+    {
+        "Area": "",
+        "Sezione": 127,
+        "Elettori maschi": 343,
+        "Votanti maschi": 202,
+        "Elettori femmine": 433,
+        "Votanti femmine": 230,
+        "Elettori": 776,
+        "Votanti": 432
+    },
+    {
+        "Area": "",
+        "Sezione": 128,
+        "Elettori maschi": 388,
+        "Votanti maschi": 187,
+        "Elettori femmine": 448,
+        "Votanti femmine": 199,
+        "Elettori": 836,
+        "Votanti": 386
+    },
+    {
+        "Area": "",
+        "Sezione": 129,
+        "Elettori maschi": 411,
+        "Votanti maschi": 191,
+        "Elettori femmine": 406,
+        "Votanti femmine": 198,
+        "Elettori": 817,
+        "Votanti": 389
+    },
+    {
+        "Area": "",
+        "Sezione": 130,
+        "Elettori maschi": 317,
+        "Votanti maschi": 158,
+        "Elettori femmine": 371,
+        "Votanti femmine": 164,
+        "Elettori": 688,
+        "Votanti": 322
+    },
+    {
+        "Area": "",
+        "Sezione": 131,
+        "Elettori maschi": 344,
+        "Votanti maschi": 187,
+        "Elettori femmine": 393,
+        "Votanti femmine": 207,
+        "Elettori": 737,
+        "Votanti": 394
+    },
+    {
+        "Area": "",
+        "Sezione": 132,
+        "Elettori maschi": 295,
+        "Votanti maschi": 187,
+        "Elettori femmine": 402,
+        "Votanti femmine": 230,
+        "Elettori": 697,
+        "Votanti": 417
+    },
+    {
+        "Area": "",
+        "Sezione": 133,
+        "Elettori maschi": 319,
+        "Votanti maschi": 154,
+        "Elettori femmine": 388,
+        "Votanti femmine": 184,
+        "Elettori": 707,
+        "Votanti": 338
+    },
+    {
+        "Area": "",
+        "Sezione": 134,
+        "Elettori maschi": 380,
+        "Votanti maschi": 201,
+        "Elettori femmine": 481,
+        "Votanti femmine": 265,
+        "Elettori": 861,
+        "Votanti": 466
+    },
+    {
+        "Area": "",
+        "Sezione": 135,
+        "Elettori maschi": 369,
+        "Votanti maschi": 170,
+        "Elettori femmine": 388,
+        "Votanti femmine": 175,
+        "Elettori": 757,
+        "Votanti": 345
+    },
+    {
+        "Area": "",
+        "Sezione": 136,
+        "Elettori maschi": 339,
+        "Votanti maschi": 166,
+        "Elettori femmine": 395,
+        "Votanti femmine": 176,
+        "Elettori": 734,
+        "Votanti": 342
+    },
+    {
+        "Area": "",
+        "Sezione": 137,
+        "Elettori maschi": 329,
+        "Votanti maschi": 191,
+        "Elettori femmine": 385,
+        "Votanti femmine": 215,
+        "Elettori": 714,
+        "Votanti": 406
+    },
+    {
+        "Area": "",
+        "Sezione": 138,
+        "Elettori maschi": 414,
+        "Votanti maschi": 208,
+        "Elettori femmine": 437,
+        "Votanti femmine": 220,
+        "Elettori": 851,
+        "Votanti": 428
+    },
+    {
+        "Area": "",
+        "Sezione": 139,
+        "Elettori maschi": 380,
+        "Votanti maschi": 232,
+        "Elettori femmine": 450,
+        "Votanti femmine": 261,
+        "Elettori": 830,
+        "Votanti": 493
+    },
+    {
+        "Area": "",
+        "Sezione": 140,
+        "Elettori maschi": 396,
+        "Votanti maschi": 218,
+        "Elettori femmine": 436,
+        "Votanti femmine": 258,
+        "Elettori": 832,
+        "Votanti": 476
+    },
+    {
+        "Area": "",
+        "Sezione": 141,
+        "Elettori maschi": 341,
+        "Votanti maschi": 178,
+        "Elettori femmine": 382,
+        "Votanti femmine": 182,
+        "Elettori": 723,
+        "Votanti": 360
+    },
+    {
+        "Area": "",
+        "Sezione": 142,
+        "Elettori maschi": 342,
+        "Votanti maschi": 192,
+        "Elettori femmine": 385,
+        "Votanti femmine": 195,
+        "Elettori": 727,
+        "Votanti": 387
+    },
+    {
+        "Area": "",
+        "Sezione": 143,
+        "Elettori maschi": 296,
+        "Votanti maschi": 167,
+        "Elettori femmine": 398,
+        "Votanti femmine": 212,
+        "Elettori": 694,
+        "Votanti": 379
+    },
+    {
+        "Area": "",
+        "Sezione": 144,
+        "Elettori maschi": 425,
+        "Votanti maschi": 252,
+        "Elettori femmine": 489,
+        "Votanti femmine": 297,
+        "Elettori": 914,
+        "Votanti": 549
+    },
+    {
+        "Area": "",
+        "Sezione": 145,
+        "Elettori maschi": 339,
+        "Votanti maschi": 162,
+        "Elettori femmine": 376,
+        "Votanti femmine": 184,
+        "Elettori": 715,
+        "Votanti": 346
+    },
+    {
+        "Area": "",
+        "Sezione": 146,
+        "Elettori maschi": 368,
+        "Votanti maschi": 223,
+        "Elettori femmine": 409,
+        "Votanti femmine": 206,
+        "Elettori": 777,
+        "Votanti": 429
+    },
+    {
+        "Area": "",
+        "Sezione": 147,
+        "Elettori maschi": 340,
+        "Votanti maschi": 180,
+        "Elettori femmine": 405,
+        "Votanti femmine": 214,
+        "Elettori": 745,
+        "Votanti": 394
+    },
+    {
+        "Area": "",
+        "Sezione": 148,
+        "Elettori maschi": 324,
+        "Votanti maschi": 170,
+        "Elettori femmine": 425,
+        "Votanti femmine": 218,
+        "Elettori": 749,
+        "Votanti": 388
+    },
+    {
+        "Area": "",
+        "Sezione": 149,
+        "Elettori maschi": 347,
+        "Votanti maschi": 186,
+        "Elettori femmine": 433,
+        "Votanti femmine": 206,
+        "Elettori": 780,
+        "Votanti": 392
+    },
+    {
+        "Area": "",
+        "Sezione": 150,
+        "Elettori maschi": 304,
+        "Votanti maschi": 177,
+        "Elettori femmine": 386,
+        "Votanti femmine": 211,
+        "Elettori": 690,
+        "Votanti": 388
+    },
+    {
+        "Area": "",
+        "Sezione": 151,
+        "Elettori maschi": 311,
+        "Votanti maschi": 150,
+        "Elettori femmine": 400,
+        "Votanti femmine": 185,
+        "Elettori": 711,
+        "Votanti": 335
+    },
+    {
+        "Area": "",
+        "Sezione": 152,
+        "Elettori maschi": 176,
+        "Votanti maschi": 104,
+        "Elettori femmine": 257,
+        "Votanti femmine": 145,
+        "Elettori": 433,
+        "Votanti": 249
+    },
+    {
+        "Area": "",
+        "Sezione": 153,
+        "Elettori maschi": 487,
+        "Votanti maschi": 259,
+        "Elettori femmine": 543,
+        "Votanti femmine": 272,
+        "Elettori": 1030,
+        "Votanti": 531
+    },
+    {
+        "Area": "",
+        "Sezione": 154,
+        "Elettori maschi": 316,
+        "Votanti maschi": 180,
+        "Elettori femmine": 393,
+        "Votanti femmine": 206,
+        "Elettori": 709,
+        "Votanti": 386
+    },
+    {
+        "Area": "",
+        "Sezione": 155,
+        "Elettori maschi": 351,
+        "Votanti maschi": 165,
+        "Elettori femmine": 443,
+        "Votanti femmine": 193,
+        "Elettori": 794,
+        "Votanti": 358
+    },
+    {
+        "Area": "",
+        "Sezione": 156,
+        "Elettori maschi": 245,
+        "Votanti maschi": 136,
+        "Elettori femmine": 299,
+        "Votanti femmine": 158,
+        "Elettori": 544,
+        "Votanti": 294
+    },
+    {
+        "Area": "",
+        "Sezione": 157,
+        "Elettori maschi": 340,
+        "Votanti maschi": 197,
+        "Elettori femmine": 415,
+        "Votanti femmine": 213,
+        "Elettori": 755,
+        "Votanti": 410
+    },
+    {
+        "Area": "",
+        "Sezione": 158,
+        "Elettori maschi": 315,
+        "Votanti maschi": 187,
+        "Elettori femmine": 349,
+        "Votanti femmine": 180,
+        "Elettori": 664,
+        "Votanti": 367
+    },
+    {
+        "Area": "",
+        "Sezione": 159,
+        "Elettori maschi": 381,
+        "Votanti maschi": 201,
+        "Elettori femmine": 456,
+        "Votanti femmine": 245,
+        "Elettori": 837,
+        "Votanti": 446
+    },
+    {
+        "Area": "",
+        "Sezione": 160,
+        "Elettori maschi": 359,
+        "Votanti maschi": 210,
+        "Elettori femmine": 434,
+        "Votanti femmine": 229,
+        "Elettori": 793,
+        "Votanti": 439
+    },
+    {
+        "Area": "",
+        "Sezione": 161,
+        "Elettori maschi": 401,
+        "Votanti maschi": 230,
+        "Elettori femmine": 504,
+        "Votanti femmine": 253,
+        "Elettori": 905,
+        "Votanti": 483
+    },
+    {
+        "Area": "",
+        "Sezione": 162,
+        "Elettori maschi": 376,
+        "Votanti maschi": 235,
+        "Elettori femmine": 442,
+        "Votanti femmine": 236,
+        "Elettori": 818,
+        "Votanti": 471
+    },
+    {
+        "Area": "",
+        "Sezione": 163,
+        "Elettori maschi": 273,
+        "Votanti maschi": 183,
+        "Elettori femmine": 329,
+        "Votanti femmine": 182,
+        "Elettori": 602,
+        "Votanti": 365
+    },
+    {
+        "Area": "",
+        "Sezione": 164,
+        "Elettori maschi": 459,
+        "Votanti maschi": 242,
+        "Elettori femmine": 452,
+        "Votanti femmine": 252,
+        "Elettori": 911,
+        "Votanti": 494
+    },
+    {
+        "Area": "",
+        "Sezione": 165,
+        "Elettori maschi": 271,
+        "Votanti maschi": 157,
+        "Elettori femmine": 291,
+        "Votanti femmine": 146,
+        "Elettori": 562,
+        "Votanti": 303
+    },
+    {
+        "Area": "",
+        "Sezione": 166,
+        "Elettori maschi": 387,
+        "Votanti maschi": 223,
+        "Elettori femmine": 404,
+        "Votanti femmine": 232,
+        "Elettori": 791,
+        "Votanti": 455
+    },
+    {
+        "Area": "",
+        "Sezione": 167,
+        "Elettori maschi": 378,
+        "Votanti maschi": 247,
+        "Elettori femmine": 394,
+        "Votanti femmine": 243,
+        "Elettori": 772,
+        "Votanti": 490
+    },
+    {
+        "Area": "",
+        "Sezione": 168,
+        "Elettori maschi": 279,
+        "Votanti maschi": 175,
+        "Elettori femmine": 307,
+        "Votanti femmine": 194,
+        "Elettori": 586,
+        "Votanti": 369
+    },
+    {
+        "Area": "",
+        "Sezione": 169,
+        "Elettori maschi": 339,
+        "Votanti maschi": 219,
+        "Elettori femmine": 360,
+        "Votanti femmine": 238,
+        "Elettori": 699,
+        "Votanti": 457
+    },
+    {
+        "Area": "",
+        "Sezione": 170,
+        "Elettori maschi": 319,
+        "Votanti maschi": 164,
+        "Elettori femmine": 393,
+        "Votanti femmine": 185,
+        "Elettori": 712,
+        "Votanti": 349
+    },
+    {
+        "Area": "",
+        "Sezione": 171,
+        "Elettori maschi": 297,
+        "Votanti maschi": 173,
+        "Elettori femmine": 349,
+        "Votanti femmine": 173,
+        "Elettori": 646,
+        "Votanti": 346
+    },
+    {
+        "Area": "",
+        "Sezione": 172,
+        "Elettori maschi": 329,
+        "Votanti maschi": 178,
+        "Elettori femmine": 357,
+        "Votanti femmine": 184,
+        "Elettori": 686,
+        "Votanti": 362
+    },
+    {
+        "Area": "",
+        "Sezione": 173,
+        "Elettori maschi": 281,
+        "Votanti maschi": 158,
+        "Elettori femmine": 315,
+        "Votanti femmine": 162,
+        "Elettori": 596,
+        "Votanti": 320
+    },
+    {
+        "Area": "",
+        "Sezione": 174,
+        "Elettori maschi": 377,
+        "Votanti maschi": 229,
+        "Elettori femmine": 438,
+        "Votanti femmine": 251,
+        "Elettori": 815,
+        "Votanti": 480
+    },
+    {
+        "Area": "",
+        "Sezione": 175,
+        "Elettori maschi": 292,
+        "Votanti maschi": 199,
+        "Elettori femmine": 333,
+        "Votanti femmine": 201,
+        "Elettori": 625,
+        "Votanti": 400
+    },
+    {
+        "Area": "",
+        "Sezione": 176,
+        "Elettori maschi": 306,
+        "Votanti maschi": 168,
+        "Elettori femmine": 308,
+        "Votanti femmine": 172,
+        "Elettori": 614,
+        "Votanti": 340
+    },
+    {
+        "Area": "",
+        "Sezione": 177,
+        "Elettori maschi": 309,
+        "Votanti maschi": 175,
+        "Elettori femmine": 326,
+        "Votanti femmine": 199,
+        "Elettori": 635,
+        "Votanti": 374
+    },
+    {
+        "Area": "",
+        "Sezione": 178,
+        "Elettori maschi": 356,
+        "Votanti maschi": 212,
+        "Elettori femmine": 371,
+        "Votanti femmine": 226,
+        "Elettori": 727,
+        "Votanti": 438
+    },
+    {
+        "Area": "",
+        "Sezione": 179,
+        "Elettori maschi": 412,
+        "Votanti maschi": 247,
+        "Elettori femmine": 465,
+        "Votanti femmine": 270,
+        "Elettori": 877,
+        "Votanti": 517
+    },
+    {
+        "Area": "",
+        "Sezione": 180,
+        "Elettori maschi": 337,
+        "Votanti maschi": 194,
+        "Elettori femmine": 398,
+        "Votanti femmine": 191,
+        "Elettori": 735,
+        "Votanti": 385
+    },
+    {
+        "Area": "",
+        "Sezione": 181,
+        "Elettori maschi": 346,
+        "Votanti maschi": 215,
+        "Elettori femmine": 392,
+        "Votanti femmine": 236,
+        "Elettori": 738,
+        "Votanti": 451
+    },
+    {
+        "Area": "",
+        "Sezione": 182,
+        "Elettori maschi": 349,
+        "Votanti maschi": 221,
+        "Elettori femmine": 424,
+        "Votanti femmine": 249,
+        "Elettori": 773,
+        "Votanti": 470
+    },
+    {
+        "Area": "",
+        "Sezione": 183,
+        "Elettori maschi": 333,
+        "Votanti maschi": 210,
+        "Elettori femmine": 393,
+        "Votanti femmine": 211,
+        "Elettori": 726,
+        "Votanti": 421
+    },
+    {
+        "Area": "",
+        "Sezione": 184,
+        "Elettori maschi": 310,
+        "Votanti maschi": 163,
+        "Elettori femmine": 380,
+        "Votanti femmine": 193,
+        "Elettori": 690,
+        "Votanti": 356
+    },
+    {
+        "Area": "",
+        "Sezione": 185,
+        "Elettori maschi": 485,
+        "Votanti maschi": 295,
+        "Elettori femmine": 587,
+        "Votanti femmine": 334,
+        "Elettori": 1072,
+        "Votanti": 629
+    },
+    {
+        "Area": "",
+        "Sezione": 186,
+        "Elettori maschi": 487,
+        "Votanti maschi": 253,
+        "Elettori femmine": 574,
+        "Votanti femmine": 307,
+        "Elettori": 1061,
+        "Votanti": 560
+    },
+    {
+        "Area": "",
+        "Sezione": 187,
+        "Elettori maschi": 393,
+        "Votanti maschi": 245,
+        "Elettori femmine": 508,
+        "Votanti femmine": 272,
+        "Elettori": 901,
+        "Votanti": 517
+    },
+    {
+        "Area": "",
+        "Sezione": 188,
+        "Elettori maschi": 478,
+        "Votanti maschi": 273,
+        "Elettori femmine": 539,
+        "Votanti femmine": 257,
+        "Elettori": 1017,
+        "Votanti": 530
+    },
+    {
+        "Area": "",
+        "Sezione": 189,
+        "Elettori maschi": 470,
+        "Votanti maschi": 268,
+        "Elettori femmine": 516,
+        "Votanti femmine": 284,
+        "Elettori": 986,
+        "Votanti": 552
+    },
+    {
+        "Area": "",
+        "Sezione": 190,
+        "Elettori maschi": 527,
+        "Votanti maschi": 291,
+        "Elettori femmine": 613,
+        "Votanti femmine": 321,
+        "Elettori": 1140,
+        "Votanti": 612
+    },
+    {
+        "Area": "",
+        "Sezione": 191,
+        "Elettori maschi": 299,
+        "Votanti maschi": 182,
+        "Elettori femmine": 378,
+        "Votanti femmine": 221,
+        "Elettori": 677,
+        "Votanti": 403
+    },
+    {
+        "Area": "",
+        "Sezione": 192,
+        "Elettori maschi": 316,
+        "Votanti maschi": 189,
+        "Elettori femmine": 356,
+        "Votanti femmine": 193,
+        "Elettori": 672,
+        "Votanti": 382
+    },
+    {
+        "Area": "",
+        "Sezione": 193,
+        "Elettori maschi": 379,
+        "Votanti maschi": 203,
+        "Elettori femmine": 388,
+        "Votanti femmine": 211,
+        "Elettori": 767,
+        "Votanti": 414
+    },
+    {
+        "Area": "",
+        "Sezione": 194,
+        "Elettori maschi": 402,
+        "Votanti maschi": 245,
+        "Elettori femmine": 427,
+        "Votanti femmine": 236,
+        "Elettori": 829,
+        "Votanti": 481
+    },
+    {
+        "Area": "",
+        "Sezione": 195,
+        "Elettori maschi": 390,
+        "Votanti maschi": 233,
+        "Elettori femmine": 391,
+        "Votanti femmine": 225,
+        "Elettori": 781,
+        "Votanti": 458
+    },
+    {
+        "Area": "",
+        "Sezione": 196,
+        "Elettori maschi": 361,
+        "Votanti maschi": 220,
+        "Elettori femmine": 408,
+        "Votanti femmine": 233,
+        "Elettori": 769,
+        "Votanti": 453
+    },
+    {
+        "Area": "",
+        "Sezione": 197,
+        "Elettori maschi": 344,
+        "Votanti maschi": 214,
+        "Elettori femmine": 386,
+        "Votanti femmine": 222,
+        "Elettori": 730,
+        "Votanti": 436
+    },
+    {
+        "Area": "",
+        "Sezione": 198,
+        "Elettori maschi": 459,
+        "Votanti maschi": 278,
+        "Elettori femmine": 519,
+        "Votanti femmine": 283,
+        "Elettori": 978,
+        "Votanti": 561
+    },
+    {
+        "Area": "",
+        "Sezione": 199,
+        "Elettori maschi": 337,
+        "Votanti maschi": 206,
+        "Elettori femmine": 371,
+        "Votanti femmine": 217,
+        "Elettori": 708,
+        "Votanti": 423
+    },
+    {
+        "Area": "",
+        "Sezione": 200,
+        "Elettori maschi": 485,
+        "Votanti maschi": 292,
+        "Elettori femmine": 496,
+        "Votanti femmine": 287,
+        "Elettori": 981,
+        "Votanti": 579
+    },
+    {
+        "Area": "",
+        "Sezione": 201,
+        "Elettori maschi": 479,
+        "Votanti maschi": 306,
+        "Elettori femmine": 512,
+        "Votanti femmine": 302,
+        "Elettori": 991,
+        "Votanti": 608
+    },
+    {
+        "Area": "",
+        "Sezione": 202,
+        "Elettori maschi": 581,
+        "Votanti maschi": 350,
+        "Elettori femmine": 641,
+        "Votanti femmine": 366,
+        "Elettori": 1222,
+        "Votanti": 716
+    },
+    {
+        "Area": "",
+        "Sezione": 203,
+        "Elettori maschi": 531,
+        "Votanti maschi": 297,
+        "Elettori femmine": 601,
+        "Votanti femmine": 329,
+        "Elettori": 1132,
+        "Votanti": 626
+    },
+    {
+        "Area": "",
+        "Sezione": 204,
+        "Elettori maschi": 394,
+        "Votanti maschi": 259,
+        "Elettori femmine": 426,
+        "Votanti femmine": 246,
+        "Elettori": 820,
+        "Votanti": 505
+    },
+    {
+        "Area": "",
+        "Sezione": 205,
+        "Elettori maschi": 518,
+        "Votanti maschi": 280,
+        "Elettori femmine": 559,
+        "Votanti femmine": 326,
+        "Elettori": 1077,
+        "Votanti": 606
+    },
+    {
+        "Area": "",
+        "Sezione": 206,
+        "Elettori maschi": 542,
+        "Votanti maschi": 321,
+        "Elettori femmine": 549,
+        "Votanti femmine": 309,
+        "Elettori": 1091,
+        "Votanti": 630
+    },
+    {
+        "Area": "",
+        "Sezione": 207,
+        "Elettori maschi": 573,
+        "Votanti maschi": 292,
+        "Elettori femmine": 594,
+        "Votanti femmine": 300,
+        "Elettori": 1167,
+        "Votanti": 592
+    },
+    {
+        "Area": "",
+        "Sezione": 208,
+        "Elettori maschi": 378,
+        "Votanti maschi": 230,
+        "Elettori femmine": 382,
+        "Votanti femmine": 217,
+        "Elettori": 760,
+        "Votanti": 447
+    },
+    {
+        "Area": "",
+        "Sezione": 209,
+        "Elettori maschi": 465,
+        "Votanti maschi": 269,
+        "Elettori femmine": 499,
+        "Votanti femmine": 288,
+        "Elettori": 964,
+        "Votanti": 557
+    },
+    {
+        "Area": "",
+        "Sezione": 210,
+        "Elettori maschi": 333,
+        "Votanti maschi": 198,
+        "Elettori femmine": 360,
+        "Votanti femmine": 187,
+        "Elettori": 693,
+        "Votanti": 385
+    },
+    {
+        "Area": "",
+        "Sezione": 211,
+        "Elettori maschi": 429,
+        "Votanti maschi": 243,
+        "Elettori femmine": 476,
+        "Votanti femmine": 276,
+        "Elettori": 905,
+        "Votanti": 519
+    },
+    {
+        "Area": "",
+        "Sezione": 212,
+        "Elettori maschi": 471,
+        "Votanti maschi": 263,
+        "Elettori femmine": 480,
+        "Votanti femmine": 279,
+        "Elettori": 951,
+        "Votanti": 542
+    },
+    {
+        "Area": "",
+        "Sezione": 213,
+        "Elettori maschi": 500,
+        "Votanti maschi": 251,
+        "Elettori femmine": 534,
+        "Votanti femmine": 278,
+        "Elettori": 1034,
+        "Votanti": 529
+    },
+    {
+        "Area": "",
+        "Sezione": 214,
+        "Elettori maschi": 628,
+        "Votanti maschi": 277,
+        "Elettori femmine": 624,
+        "Votanti femmine": 298,
+        "Elettori": 1252,
+        "Votanti": 575
+    },
+    {
+        "Area": "",
+        "Sezione": 215,
+        "Elettori maschi": 533,
+        "Votanti maschi": 303,
+        "Elettori femmine": 527,
+        "Votanti femmine": 298,
+        "Elettori": 1060,
+        "Votanti": 601
+    },
+    {
+        "Area": "",
+        "Sezione": 216,
+        "Elettori maschi": 391,
+        "Votanti maschi": 226,
+        "Elettori femmine": 405,
+        "Votanti femmine": 223,
+        "Elettori": 796,
+        "Votanti": 449
+    },
+    {
+        "Area": "",
+        "Sezione": 217,
+        "Elettori maschi": 390,
+        "Votanti maschi": 252,
+        "Elettori femmine": 393,
+        "Votanti femmine": 229,
+        "Elettori": 783,
+        "Votanti": 481
+    },
+    {
+        "Area": "",
+        "Sezione": 218,
+        "Elettori maschi": 588,
+        "Votanti maschi": 320,
+        "Elettori femmine": 580,
+        "Votanti femmine": 328,
+        "Elettori": 1168,
+        "Votanti": 648
+    },
+    {
+        "Area": "",
+        "Sezione": 219,
+        "Elettori maschi": 74,
+        "Votanti maschi": 47,
+        "Elettori femmine": 85,
+        "Votanti femmine": 55,
+        "Elettori": 159,
+        "Votanti": 102
+    },
+    {
+        "Area": "",
+        "Sezione": 220,
+        "Elettori maschi": 130,
+        "Votanti maschi": 86,
+        "Elettori femmine": 127,
+        "Votanti femmine": 78,
+        "Elettori": 257,
+        "Votanti": 164
+    },
+    {
+        "Area": "",
+        "Sezione": 221,
+        "Elettori maschi": 143,
+        "Votanti maschi": 106,
+        "Elettori femmine": 141,
+        "Votanti femmine": 103,
+        "Elettori": 284,
+        "Votanti": 209
+    },
+    {
+        "Area": "",
+        "Sezione": 222,
+        "Elettori maschi": 475,
+        "Votanti maschi": 278,
+        "Elettori femmine": 469,
+        "Votanti femmine": 264,
+        "Elettori": 944,
+        "Votanti": 542
+    },
+    {
+        "Area": "",
+        "Sezione": 223,
+        "Elettori maschi": 396,
+        "Votanti maschi": 253,
+        "Elettori femmine": 434,
+        "Votanti femmine": 280,
+        "Elettori": 830,
+        "Votanti": 533
+    },
+    {
+        "Area": "",
+        "Sezione": 224,
+        "Elettori maschi": 171,
+        "Votanti maschi": 96,
+        "Elettori femmine": 163,
+        "Votanti femmine": 84,
+        "Elettori": 334,
+        "Votanti": 180
+    },
+    {
+        "Area": "",
+        "Sezione": 225,
+        "Elettori maschi": 257,
+        "Votanti maschi": 130,
+        "Elettori femmine": 246,
+        "Votanti femmine": 122,
+        "Elettori": 503,
+        "Votanti": 252
+    },
+    {
+        "Area": "",
+        "Sezione": 226,
+        "Elettori maschi": 313,
+        "Votanti maschi": 200,
+        "Elettori femmine": 299,
+        "Votanti femmine": 205,
+        "Elettori": 612,
+        "Votanti": 405
+    },
+    {
+        "Area": "",
+        "Sezione": 227,
+        "Elettori maschi": 170,
+        "Votanti maschi": 98,
+        "Elettori femmine": 158,
+        "Votanti femmine": 86,
+        "Elettori": 328,
+        "Votanti": 184
+    },
+    {
+        "Area": "",
+        "Sezione": 228,
+        "Elettori maschi": 309,
+        "Votanti maschi": 199,
+        "Elettori femmine": 307,
+        "Votanti femmine": 200,
+        "Elettori": 616,
+        "Votanti": 399
+    },
+    {
+        "Area": "",
+        "Sezione": 229,
+        "Elettori maschi": 366,
+        "Votanti maschi": 244,
+        "Elettori femmine": 401,
+        "Votanti femmine": 268,
+        "Elettori": 767,
+        "Votanti": 512
+    },
+    {
+        "Area": "",
+        "Sezione": 230,
+        "Elettori maschi": 265,
+        "Votanti maschi": 159,
+        "Elettori femmine": 253,
+        "Votanti femmine": 159,
+        "Elettori": 518,
+        "Votanti": 318
+    },
+    {
+        "Area": "",
+        "Sezione": 231,
+        "Elettori maschi": 269,
+        "Votanti maschi": 182,
+        "Elettori femmine": 281,
+        "Votanti femmine": 160,
+        "Elettori": 550,
+        "Votanti": 342
+    },
+    {
+        "Area": "",
+        "Sezione": 232,
+        "Elettori maschi": 324,
+        "Votanti maschi": 225,
+        "Elettori femmine": 318,
+        "Votanti femmine": 201,
+        "Elettori": 642,
+        "Votanti": 426
+    },
+    {
+        "Area": "",
+        "Sezione": 233,
+        "Elettori maschi": 436,
+        "Votanti maschi": 284,
+        "Elettori femmine": 481,
+        "Votanti femmine": 297,
+        "Elettori": 917,
+        "Votanti": 581
+    },
+    {
+        "Area": "",
+        "Sezione": 234,
+        "Elettori maschi": 351,
+        "Votanti maschi": 176,
+        "Elettori femmine": 375,
+        "Votanti femmine": 173,
+        "Elettori": 726,
+        "Votanti": 349
+    },
+    {
+        "Area": "",
+        "Sezione": 235,
+        "Elettori maschi": 327,
+        "Votanti maschi": 162,
+        "Elettori femmine": 354,
+        "Votanti femmine": 172,
+        "Elettori": 681,
+        "Votanti": 334
+    },
+    {
+        "Area": "",
+        "Sezione": 236,
+        "Elettori maschi": 326,
+        "Votanti maschi": 204,
+        "Elettori femmine": 356,
+        "Votanti femmine": 200,
+        "Elettori": 682,
+        "Votanti": 404
+    },
+    {
+        "Area": "",
+        "Sezione": 237,
+        "Elettori maschi": 336,
+        "Votanti maschi": 230,
+        "Elettori femmine": 364,
+        "Votanti femmine": 221,
+        "Elettori": 700,
+        "Votanti": 451
+    },
+    {
+        "Area": "",
+        "Sezione": 238,
+        "Elettori maschi": 256,
+        "Votanti maschi": 149,
+        "Elettori femmine": 298,
+        "Votanti femmine": 168,
+        "Elettori": 554,
+        "Votanti": 317
+    },
+    {
+        "Area": "",
+        "Sezione": 239,
+        "Elettori maschi": 304,
+        "Votanti maschi": 171,
+        "Elettori femmine": 345,
+        "Votanti femmine": 188,
+        "Elettori": 649,
+        "Votanti": 359
+    },
+    {
+        "Area": "",
+        "Sezione": 240,
+        "Elettori maschi": 411,
+        "Votanti maschi": 270,
+        "Elettori femmine": 445,
+        "Votanti femmine": 255,
+        "Elettori": 856,
+        "Votanti": 525
+    },
+    {
+        "Area": "",
+        "Sezione": 241,
+        "Elettori maschi": 427,
+        "Votanti maschi": 250,
+        "Elettori femmine": 475,
+        "Votanti femmine": 268,
+        "Elettori": 902,
+        "Votanti": 518
+    },
+    {
+        "Area": "",
+        "Sezione": 242,
+        "Elettori maschi": 328,
+        "Votanti maschi": 200,
+        "Elettori femmine": 321,
+        "Votanti femmine": 175,
+        "Elettori": 649,
+        "Votanti": 375
+    },
+    {
+        "Area": "",
+        "Sezione": 243,
+        "Elettori maschi": 353,
+        "Votanti maschi": 245,
+        "Elettori femmine": 375,
+        "Votanti femmine": 223,
+        "Elettori": 728,
+        "Votanti": 468
+    },
+    {
+        "Area": "",
+        "Sezione": 244,
+        "Elettori maschi": 136,
+        "Votanti maschi": 90,
+        "Elettori femmine": 146,
+        "Votanti femmine": 94,
+        "Elettori": 282,
+        "Votanti": 184
+    },
+    {
+        "Area": "",
+        "Sezione": 245,
+        "Elettori maschi": 123,
+        "Votanti maschi": 90,
+        "Elettori femmine": 124,
+        "Votanti femmine": 84,
+        "Elettori": 247,
+        "Votanti": 174
+    },
+    {
+        "Area": "",
+        "Sezione": 246,
+        "Elettori maschi": 269,
+        "Votanti maschi": 185,
+        "Elettori femmine": 298,
+        "Votanti femmine": 192,
+        "Elettori": 567,
+        "Votanti": 377
+    },
+    {
+        "Area": "",
+        "Sezione": 247,
+        "Elettori maschi": 293,
+        "Votanti maschi": 190,
+        "Elettori femmine": 306,
+        "Votanti femmine": 203,
+        "Elettori": 599,
+        "Votanti": 393
+    },
+    {
+        "Area": "",
+        "Sezione": 248,
+        "Elettori maschi": 480,
+        "Votanti maschi": 258,
+        "Elettori femmine": 511,
+        "Votanti femmine": 275,
+        "Elettori": 991,
+        "Votanti": 533
+    },
+    {
+        "Area": "",
+        "Sezione": 249,
+        "Elettori maschi": 332,
+        "Votanti maschi": 194,
+        "Elettori femmine": 345,
+        "Votanti femmine": 197,
+        "Elettori": 677,
+        "Votanti": 391
+    },
+    {
+        "Area": "",
+        "Sezione": 250,
+        "Elettori maschi": 0,
+        "Votanti maschi": 10,
+        "Elettori femmine": 0,
+        "Votanti femmine": 19,
+        "Elettori": 0,
+        "Votanti": 29
+    },
+    {
+        "Area": "",
+        "Sezione": 251,
+        "Elettori maschi": 0,
+        "Votanti maschi": 24,
+        "Elettori femmine": 0,
+        "Votanti femmine": 16,
+        "Elettori": 0,
+        "Votanti": 40
+    },
+    {
+        "Area": "",
+        "Sezione": 252,
+        "Elettori maschi": 0,
+        "Votanti maschi": 30,
+        "Elettori femmine": 0,
+        "Votanti femmine": 33,
+        "Elettori": 0,
+        "Votanti": 63
+    },
+    {
+        "Area": "",
+        "Sezione": 253,
+        "Elettori maschi": 0,
+        "Votanti maschi": 8,
+        "Elettori femmine": 0,
+        "Votanti femmine": 9,
+        "Elettori": 0,
+        "Votanti": 17
+    }
+]
