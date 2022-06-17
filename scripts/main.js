@@ -39,10 +39,10 @@ LETTERAEMME.context = LETTERAEMME.context || {
         `<div id="popup-${values.id}" class="popup ${values.class}" data-sezione="${values.id}">
             <h1>${values.sezione.nome}</h1>
             <h2>Nr. Sezione: <b>${values.sezione.sezioni.join(", ")}</b></h2>
-            <h2>Elettori/Votanti: <b>${values.sezione.totali.elettori}</b> / <b>${values.sezione.totali.votanti}</b></h2>
-            <h2>Voti validi totali: <b>${values.sezione.totali.voti_sindaco}</b></h2>
+            <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori}</b> / <b>${values.sezione.totali.votanti}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
+            <h2>Voti validi: <b>${values.sezione.totali.voti_sindaco}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_sindaco>0)  ? parseFloat(((values.sezione.totali.voti_sindaco/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
             <ul>${values.sezione.sindaciSorted.map((sindaco)=>{
-              return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}:&nbsp;<b>${sindaco.voti}</b>&nbsp;(<i>${sindaco.perc}%</i>)</li>`
+              return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}: <b>${sindaco.voti}</b> (<i>${sindaco.perc}%</i>)</li>`
             }).join("")}</ul>
         </div>`      
  };
