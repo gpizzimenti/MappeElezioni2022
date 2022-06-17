@@ -20,6 +20,7 @@ self.onmessage = function (msg) {
     const db = {};
 
     data.sezioni.features.forEach((sezione)=>{
+
       const key = sezione.geometry.coordinates[0]+"-"+sezione.geometry.coordinates[1];
 
       let processedData = db[key] || {
@@ -30,6 +31,9 @@ self.onmessage = function (msg) {
         "totali" : {
           "elettori": 0,
           "votanti": 0,
+          "bianche": 0,          
+          "nulli": 0,                    
+          "contestazioni": 0,                    
           "voti_sindaco": 0
         }
       };
@@ -58,6 +62,19 @@ self.onmessage = function (msg) {
           processedData.totali.elettori += elettori;
           processedData.totali.votanti += votanti;
       });
+
+      data.bianche_nulli_contestazioni.filter((el)=>{
+        return el["Sezione"] == sezione.properties.id;
+      }).forEach((sezione)=>{
+        let  bianche =  parseInt(sezione["Schede bianche"],10),
+             nulli =  parseInt(sezione["Schede nulle"],10),
+             contestazioni =  parseInt(sezione["V.Cont.NoAss."],10);
+
+          processedData.totali.bianche += bianche;
+          processedData.totali.nulli += nulli;
+          processedData.totali.contestazioni += contestazioni;
+      });
+
      
       processedData.sezioni.push(sezione.properties.id);
 
@@ -80,7 +97,7 @@ self.onmessage = function (msg) {
      sezione.sindaciSorted = sezione.sindaciSorted.sort((a,b) => {return b.voti - a.voti}); 
     }
 
-  //console.log(db);
+console.log(db);
 
     return db;
   };  

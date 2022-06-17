@@ -19,7 +19,6 @@ LETTERAEMME.context = LETTERAEMME.context || {
     sezioni: "data/sezioni.geojson",
     sindaci: "data/sindaci.json",
     votanti: "data/votanti.json",
-    liste: "data/liste.json",
     bianche_nulli_contestazioni: "data/bianche_nulli_contestazioni.json",
     current: {}
   },
@@ -41,6 +40,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
             <h2>Nr. Sezione: <b>${values.sezione.sezioni.join(", ")}</b></h2>
             <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori}</b> / <b>${values.sezione.totali.votanti}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
             <h2>Voti validi: <b>${values.sezione.totali.voti_sindaco}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_sindaco>0)  ? parseFloat(((values.sezione.totali.voti_sindaco/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
+            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche}</b> / <b>${values.sezione.totali.nulli}</b> / <b>${values.sezione.totali.contestazioni}</b> (<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
             <ul>${values.sezione.sindaciSorted.map((sindaco)=>{
               return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}: <b>${sindaco.voti}</b> (<i>${sindaco.perc}%</i>)</li>`
             }).join("")}</ul>
@@ -453,15 +453,15 @@ LETTERAEMME.context = LETTERAEMME.context || {
             fetch(ns.context.urls.sezioni).then((res) => res.json()),
             fetch(ns.context.urls.sindaci).then((res) => res.json()),
             fetch(ns.context.urls.dizionario_sindaci).then((res) => res.json()),        
-            fetch(ns.context.urls.votanti).then((res) => res.json()),                        
-            /*fetch(ns.context.data.liste).then((res) => res.json()),
-            fetch(ns.context.data.bianche_nulli_contestazioni).then((res) => res.json()),*/
+            fetch(ns.context.urls.votanti).then((res) => res.json()),
+            fetch(ns.context.urls.bianche_nulli_contestazioni).then((res) => res.json())                        
           ]).then((data)=>{
             const dataPacket = {
               sezioni : data[0],
               sindaci : data[1],
               dizionario_sindaci : data[2],
               votanti : data[3],
+              bianche_nulli_contestazioni : data[4],
             }
   
             const worker_db = new Worker("scripts/createDB.worker.js");
