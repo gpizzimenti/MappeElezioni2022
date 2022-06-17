@@ -20,9 +20,11 @@ LETTERAEMME.context = LETTERAEMME.context || {
     sindaci: "data/sindaci.json",
     votanti: "data/votanti.json",
     bianche_nulli_contestazioni: "data/bianche_nulli_contestazioni.json",
-    current: {}
+    totali: "data/totali.json"
   },
- db: {}
+ db: {},
+ totali: {},
+ dizionari: {}
 };
 
  LETTERAEMME.templates = LETTERAEMME.templates || {
@@ -66,50 +68,112 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const setNavigator = function setNavigator() {
     const wrapper = document.querySelector("#mapWrapper"),
       navigator = wrapper.querySelector("#mapNavigator"),
-      toggleButton = navigator.querySelector(".btnToggler"),
-      txtSearchSezioni =  navigator.querySelector("[list=lstSezioni]"),
-      lstSezioni =  navigator.querySelector("#lstSezioni");
+      toggleButton = navigator.querySelector(".btnToggler");
 
     toggleButton.addEventListener("click", (event) => {
       toggleSidebar(navigator.getAttribute("aria-expanded") == "false");
     });
 
-    for (let idSezione in ns.context.db) {
-      const sezione =  ns.context.db[idSezione];
-      let opt = document.createElement("option");
-
-        opt.dataset.id=idSezione;
-        opt.value=sezione.nome;
-
-      lstSezioni.append(opt);
-    }    
-
     delegate(navigator, "change", "[type='radio']", function (evt) {
       renderData();
     });
 
+    setAutocomplete();
+    setMainChart();
+  };    
 
-    txtSearchSezioni.addEventListener("input" , function (evt) { 
-      let optionFound = false;
+  /*******************************************************************************/
 
-      for (var j = 0; j < lstSezioni.options.length; j++) {
-        let opt = lstSezioni.options[j];
+  const setAutocomplete = function setAutocomplete() {  
+    const navigator= document.querySelector("#mapNavigator"),
+      txtSearchSezioni =  navigator.querySelector("[list=lstSezioni]"),
+      lstSezioni =  navigator.querySelector("#lstSezioni");    
 
-        if (txtSearchSezioni.value.toUpperCase().trim() == opt.value.toUpperCase().trim()) {
-            optionFound = true;
-            txtSearchSezioni.value= "";
-            const marker = selectMarker(opt.dataset.id);
-
-            if (marker) {
-              ns.context.map.current.flyTo(marker.getLatLng(), 18);
-              marker.openPopup();
-            }
-            break;
+      for (let idSezione in ns.context.db) {
+        const sezione =  ns.context.db[idSezione];
+        let opt = document.createElement("option");
+  
+          opt.dataset.id=idSezione;
+          opt.value=sezione.nome;
+  
+        lstSezioni.append(opt);
+      }    
+  
+      txtSearchSezioni.addEventListener("input" , function (evt) { 
+        let optionFound = false;
+  
+        for (var j = 0; j < lstSezioni.options.length; j++) {
+          let opt = lstSezioni.options[j];
+  
+          if (txtSearchSezioni.value.toUpperCase().trim() == opt.value.toUpperCase().trim()) {
+              optionFound = true;
+              txtSearchSezioni.value= "";
+              const marker = selectMarker(opt.dataset.id);
+  
+              if (marker) {
+                ns.context.map.current.flyTo(marker.getLatLng(), 18);
+                marker.openPopup();
+              }
+              break;
+          }
         }
-      }
+  
+      });
+  
 
+  };    
+
+  /*******************************************************************************/
+
+  const setMainChart = function setMainChart() {    
+
+    const mainChart= document.getElementById("mainChart");
+
+    let html = "", data = [], tot = 0;
+
+    ns.context.totali.sindaci.forEach((sindaco)=>{
+      let colore = ns.context.dizionari.sindaci[sindaco["Numero Sind"]].colore, 
+          nome = ns.context.dizionari.sindaci[sindaco["Numero Sind"]].nome,
+          value = {
+                      "label" : nome.slice(0, nome.lastIndexOf(' ')),
+                      "tot" : sindaco["Voti validi"],
+                      "colore": colore
+                    };
+          data.push(value);          
+          tot+=value.tot;             
+    });  
+
+    
+    data.forEach((sindaco)=>{
+      sindaco.perc = parseFloat(((sindaco.tot/tot)*100)).toFixed(2);
+    });  
+
+    const maxPerc = Math.ceil(data[0].perc);
+
+    data.forEach((sindaco)=>{
+      const sizePerc = Math.ceil((100*sindaco.perc)/maxPerc) + 1;
+
+      html+=`<li style="--bar-color:${sindaco.colore};">
+        <p>${sindaco.label}</p>
+        <div class="bar-outer">
+          <div class="bar-inner" data-size="${sizePerc}" style="min-width:0;"></div>
+        </div>
+        <data>
+          <b>${sindaco.tot}</b>
+          <br>
+          <i>${sindaco.perc}%</i>
+        </data>
+      </li>`;
+
+    });  
+
+    mainChart.innerHTML = "<ul>" + html + "</ul>";
+
+    i=1;
+    mainChart.querySelectorAll(".bar-inner").forEach((li)=>{
+      setTimeout(()=>{li.style.minWidth=li.dataset.size+"%"},i*500);
+      i+=1;
     });
-
 
   };    
 
@@ -454,14 +518,19 @@ LETTERAEMME.context = LETTERAEMME.context || {
             fetch(ns.context.urls.sindaci).then((res) => res.json()),
             fetch(ns.context.urls.dizionario_sindaci).then((res) => res.json()),        
             fetch(ns.context.urls.votanti).then((res) => res.json()),
-            fetch(ns.context.urls.bianche_nulli_contestazioni).then((res) => res.json())                        
+            fetch(ns.context.urls.bianche_nulli_contestazioni).then((res) => res.json()),
+            fetch(ns.context.urls.totali).then((res) => res.json())                                                            
           ]).then((data)=>{
+
+            ns.context.totali.sindaci = data[5].sort((a,b) => {return b["Voti validi"] - a["Voti validi"]}); 
+            ns.context.dizionari.sindaci = data[2];
+
             const dataPacket = {
               sezioni : data[0],
               sindaci : data[1],
               dizionario_sindaci : data[2],
               votanti : data[3],
-              bianche_nulli_contestazioni : data[4],
+              bianche_nulli_contestazioni : data[4]  
             }
   
             const worker_db = new Worker("scripts/createDB.worker.js");

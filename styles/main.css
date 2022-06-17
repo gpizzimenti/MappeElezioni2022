@@ -524,6 +524,61 @@ svg.peity:hover,
     opacity: .8;
 }
 
+#mainChart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    gap: 15px;
+}
+
+#mainChart ul li {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1 1 100%;
+}
+
+#mainChart ul li>p,
+#mainChart ul li>data {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: .8em;
+}
+
+#mainChart ul li>p {
+    padding-right: 10px;
+    flex: 0 0 100px;
+}
+
+#mainChart ul li>.bar-outer {
+    width: 100%;
+    flex: 1 1 100%;
+    height: 1em;
+    position: relative;
+}
+
+
+#mainChart ul li>.bar-outer>.bar-inner {
+    background-color: var(--bar-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    border-radius: 3px;
+}
+
+#mainChart ul li>data {
+    width: min-content;
+    padding-left: 15px;
+}
+
 
 @media only screen and (min-width: 800px) {
 
