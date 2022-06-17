@@ -1,0 +1,3547 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "title": "Palazzo Zanca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5552608,
+                    38.1939191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "title": "Scuola Giampilieri Marina"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4908238,
+                    38.0790444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "title": "Scuola Giampilieri superiore"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.469737,
+                    38.0678905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "title": "Scuola Giampilieri superiore"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.469737,
+                    38.0678905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5,
+                "title": "Scuola Altolia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4456655,
+                    38.0768921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "title": "Scuola Altolia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4456655,
+                    38.0768921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7,
+                "title": "Scuola Briga Marina"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4826238,
+                    38.065992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8,
+                "title": "Scuola Briga Marina"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4826238,
+                    38.065992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9,
+                "title": "Scuola Pezzolo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4599123,
+                    38.0860262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10,
+                "title": "Scuola S. Margherita"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4964734,
+                    38.0983049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "title": "Scuola S. Margherita"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4964734,
+                    38.0983049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
+                "title": "Scuola S. Margherita"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4964734,
+                    38.0983049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 13,
+                "title": "Scuola S. Margherita"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4964734,
+                    38.0983049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 14,
+                "title": "Scuola S. Stefano Medio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.475325,
+                    38.1029831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 15,
+                "title": "Scuola S. Stefano Briga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4717204,
+                    38.100146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 16,
+                "title": "Scuola S. Stefano Briga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4717204,
+                    38.100146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 17,
+                "title": "Scuola Galati Marina"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5010438,
+                    38.109005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 18,
+                "title": "Scuola Galati S. Anna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4903753,
+                    38.111230
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 19,
+                "title": "Scuola Mili Moleti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.509615,
+                    38.1122633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 20,
+                "title": "Scuola Mili Moleti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.509615,
+                    38.1122633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 21,
+                "title": "Scuola Mili S. Marco"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5130582,
+                    38.1191164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 22,
+                "title": "Scuola Mili S. Pietro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4797404,
+                    38.1323014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 23,
+                "title": "Scuola Tipoldo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4725735,
+                    38.1353732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 24,
+                "title": "Scuola Tremestieri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5174954,
+                    38.1411433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 25,
+                "title": "Scuola Tremestieri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5174954,
+                    38.1411433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 26,
+                "title": "Scuola Larderia Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4957226,
+                    38.144518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 27,
+                "title": "Scuola Larderia Sup."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4956645,
+                    38.1397611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 28,
+                "title": "Scuola Contesse CEP"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.526838,
+                    38.1554182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 29,
+                "title": "Scuola Contesse CEP"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.526838,
+                    38.1554182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 30,
+                "title": "Scuola Zafferia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.505743,
+                    38.1523671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 31,
+                "title": "Scuola Zafferia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.505743,
+                    38.1523671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 32,
+                "title": "Scuola Zafferia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.505743,
+                    38.1523671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 33,
+                "title": "Scuola S. D'Acquisto UNRRA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5325064,
+                    38.1509156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 34,
+                "title": "Scuola S. D'Acquisto UNRRA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5325064,
+                    38.1509156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 35,
+                "title": "Scuola S. D'Acquisto UNRRA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5325064,
+                    38.1509156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 36,
+                "title": "Scuola S. D'Acquisto UNRRA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5325064,
+                    38.1509156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 37,
+                "title": "Scuola S. D'Acquisto UNRRA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5325064,
+                    38.1509156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 38,
+                "title": "Scuola Contesse CEP"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.526838,
+                    38.1554182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 39,
+                "title": "Scuola Contesse CEP"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.526838,
+                    38.1554182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 40,
+                "title": "Scuola Contesse CEP"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.526838,
+                    38.1554182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 41,
+                "title": "Scuola G. Leopardi Minissale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5337719,
+                    38.1614962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 42,
+                "title": "Scuola G. Leopardi Minissale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5337719,
+                    38.1614962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 43,
+                "title": "Scuola G. Leopardi Minissale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5337719,
+                    38.1614962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 44,
+                "title": "Scuola G. Leopardi Minissale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5337719,
+                    38.1614962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 45,
+                "title": "Scuola G. Leopardi Minissale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5337719,
+                    38.1614962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 46,
+                "title": "Scuola S. Filippo Inferiore"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5116257,
+                    38.1617011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 47,
+                "title": "Scuola S. Lucia Sopra Contesse"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5162593,
+                    38.169591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 48,
+                "title": "Scuola S. Lucia Sopra Contesse"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5162593,
+                    38.169591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 49,
+                "title": "Scuola S. Lucia Sopra Contesse"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5162593,
+                    38.169591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 50,
+                "title": "Scuola S. Lucia Sopra Contesse"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5162593,
+                    38.169591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 51,
+                "title": "Scuola Don Orione"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5378851,
+                    38.1629724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 52,
+                "title": "Seggio volante Casa Circondariale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5393484,
+                    38.1671617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 53,
+                "title": "Seggio volante Billa Igea"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.540037,
+                    38.1661625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 54,
+                "title": "Scuola Don Orione"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5378851,
+                    38.1629724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 55,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 56,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 57,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 58,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 59,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 60,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 61,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 62,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 63,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 64,
+                "title": "Scuola Ferraù Rione Aldisio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5291156,
+                    38.1696399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 65,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 66,
+                "title": "Seggio volante Piccole Sorelle dei Poveri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.541919,
+                    38.1691667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 67,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 68,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 69,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 70,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 71,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 72,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 73,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 74,
+                "title": "Scuola Principe di Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5465824,
+                    38.1725214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 75,
+                "title": "Scuola Pirandello"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5460644,
+                    38.176543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 76,
+                "title": "Scuola Pirandello"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5460644,
+                    38.176543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 77,
+                "title": "Scuola Pirandello"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5460644,
+                    38.176543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 78,
+                "title": "Scuola Pirandello"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5460644,
+                    38.176543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 79,
+                "title": "Scuola Pirandello"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5460644,
+                    38.176543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 80,
+                "title": "Scuola Pirandello"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5460644,
+                    38.176543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 81,
+                "title": "Scuola Enzo Drago"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.546064,
+                    38.1765438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 82,
+                "title": "Scuola Enzo Drago"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.546064,
+                    38.1765438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 83,
+                "title": "Scuola Enzo Drago"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.546064,
+                    38.1765438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 84,
+                "title": "Collereale"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5463084,
+                    38.1787124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 85,
+                "title": "Scuola Enzo Drago"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.546064,
+                    38.1765438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 86,
+                "title": "Scuola Enzo Drago"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.546064,
+                    38.1765438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 87,
+                "title": "Scuola Enzo Drago"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.546064,
+                    38.1765438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 88,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 89,
+                "title": "Seggio speciale Ospedale Piemonte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 90,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 91,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 92,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 93,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 94,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 95,
+                "title": "Scuola Gentiluomo Camaro Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5347834,
+                    38.1869609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 96,
+                "title": "Scuola Bisconte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5260996,
+                    38.1875177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 97,
+                "title": "Scuola Bisconte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5260996,
+                    38.1875177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 98,
+                "title": "Scuola G. La Pira"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5321752,
+                    38.1856235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 99,
+                "title": "Scuola G. La Pira"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5321752,
+                    38.1856235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 100,
+                "title": "Scuola G. La Pira"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5321752,
+                    38.1856235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 101,
+                "title": "Scuola G. La Pira"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5321752,
+                    38.1856235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 102,
+                "title": "Scuola Bisconte"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5260996,
+                    38.1875177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 103,
+                "title": "Scuola Tommaseo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5479801,
+                    38.1805664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 104,
+                "title": "Scuola Tommaseo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5479801,
+                    38.1805664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 105,
+                "title": "Scuola Tommaseo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5479801,
+                    38.1805664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 106,
+                "title": "Scuola Tommaseo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5479801,
+                    38.1805664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 107,
+                "title": "Scuola Tommaseo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5479801,
+                    38.1805664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 108,
+                "title": "Scuola Tommaseo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5479801,
+                    38.1805664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 109,
+                "title": "Scuola Montepiselli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5409946,
+                    38.1883578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 110,
+                "title": "Seggio volante Casa Serena"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5462626,
+                    38.1876504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 111,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 112,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 113,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 114,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 115,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 116,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 117,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 118,
+                "title": "Scuola Galatti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494501,
+                    38.1874487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 119,
+                "title": "Scuola Passamonte Gravitelli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5370994,
+                    38.1940125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 120,
+                "title": "Seggio volante COT"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5401464,
+                    38.191019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 121,
+                "title": "Seggio volante  Città del Ragazzo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5379791,
+                    38.1939282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 122,
+                "title": "Scuola Passamonte Gravitelli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5370994,
+                    38.1940125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 123,
+                "title": "Scuola Passamonte Gravitelli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5370994,
+                    38.1940125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 124,
+                "title": "Scuola Passamonte Gravitelli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5370994,
+                    38.1940125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 125,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 126,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 127,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 128,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 129,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 130,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 131,
+                "title": "Scuola Mazzini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5500929,
+                    38.1877011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 132,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 133,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 134,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 135,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 136,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 137,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 138,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 139,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 140,
+                "title": "Scuola Pascoli"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5511954,
+                    38.1995166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 141,
+                "title": "Scuola Cristo Re"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5467442,
+                    38.1959981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 142,
+                "title": "Seggio volante San Camillo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5458599,
+                    38.1938194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 143,
+                "title": "Seggio volante Villa Salus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5471992,
+                    38.1995936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 144,
+                "title": "Seggio volante Carmona"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.543822,
+                    38.1931827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 145,
+                "title": "Seggio speciale Cristo Re"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5503555,
+                    38.196295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 146,
+                "title": "Scuola Cristo Re"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5467442,
+                    38.1959981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 147,
+                "title": "Scuola Luigi Boer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5522473,
+                    38.1950848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 148,
+                "title": "Scuola Luigi Boer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5522473,
+                    38.1950848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 149,
+                "title": "Scuola Luigi Boer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5522473,
+                    38.1950848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 150,
+                "title": "Scuola Luigi Boer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5522473,
+                    38.1950848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 151,
+                "title": "Scuola Luigi Boer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5522473,
+                    38.1950848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 152,
+                "title": "Scuola Luigi Boer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5522473,
+                    38.1950848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 153,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 154,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 155,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 156,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 157,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 158,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 159,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 160,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 161,
+                "title": "Scuola Battisti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5501652,
+                    38.2083683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 162,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 163,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 164,
+                "title": "Seggio Speciale Bonino Pulejo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5173329,
+                    38.2054377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 165,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 166,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 167,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 168,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 169,
+                "title": "Scuola Cesareo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5324315,
+                    38.2142864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 170,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 171,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 172,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 173,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 174,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 175,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 176,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 177,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 178,
+                "title": "Scuola Vann'antò"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5420185,
+                    38.2126864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 179,
+                "title": "Scuola S. Francesco di Paola"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5566851,
+                    38.2163198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 180,
+                "title": "Seggio volante Cappellani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5592403,
+                    38.2143472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 181,
+                "title": "Scuola S. Francesco di Paola"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5566851,
+                    38.2163198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 182,
+                "title": "Scuola S. Francesco di Paola"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5566851,
+                    38.2163198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 183,
+                "title": "Scuola S. Francesco di Paola"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5566851,
+                    38.2163198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 184,
+                "title": "Scuola S. Francesco di Paola"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5566851,
+                    38.2163198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 185,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 186,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 187,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 188,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 189,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 190,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 191,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 192,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 193,
+                "title": "Scuola S. Eustochia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587752,
+                    38.219152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 194,
+                "title": "Scuola Vittorini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5485591,
+                    38.224426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 195,
+                "title": "Scuola Vittorini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5485591,
+                    38.224426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 196,
+                "title": "Seggio volante Comunità F.A.R.O."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5352447,
+                    38.215957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 197,
+                "title": "Scuola Vittorini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5485591,
+                    38.224426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 198,
+                "title": "Scuola Vittorini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5485591,
+                    38.224426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 199,
+                "title": "Scuola Vittorini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5485591,
+                    38.224426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 200,
+                "title": "Scuola Vittorini"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5485591,
+                    38.224426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 201,
+                "title": "Scuola Donato"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587344,
+                    38.2219843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 202,
+                "title": "Scuola Donato"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5587344,
+                    38.2219843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 203,
+                "title": "Scuola S. Agata"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6017474,
+                    38.2561547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 204,
+                "title": "Scuola S. Agata"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6017474,
+                    38.2561547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 205,
+                "title": "Scuola Ganzirri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6080085,
+                    38.2578349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 206,
+                "title": "Scuola Ganzirri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6080085,
+                    38.2578349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 207,
+                "title": "Scuola Ganzirri"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6080085,
+                    38.2578349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 208,
+                "title": "Scuola Torre Faro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6431022,
+                    38.2661191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 209,
+                "title": "Scuola Torre Faro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6431022,
+                    38.2661191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 210,
+                "title": "Scuola Torre Faro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6431022,
+                    38.2661191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 211,
+                "title": "Scuola Torre Faro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6431022,
+                    38.2661191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 212,
+                "title": "Scuola Granatari"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6288144,
+                    38.2652615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 213,
+                "title": "Scuola Sperone"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.530752,
+                    38.2638903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 214,
+                "title": "Scuola Sperone"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.530752,
+                    38.2638903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 215,
+                "title": "Scuola Faro sup."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5818085,
+                    38.2669714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 216,
+                "title": "Scuola Faro sup."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5818085,
+                    38.2669714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 217,
+                "title": "Seggio volante Villa Eucaliptus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5831663,
+                    38.2652702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 218,
+                "title": "Ex scuola Curcuraci"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5662515,
+                    38.254192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 219,
+                "title": "Scuola Massa S. Lucia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494636,
+                    38.2709151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 220,
+                "title": "Scuola Massa S. Lucia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5494636,
+                    38.2709151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 221,
+                "title": "Ex scuola Massa S. Giorgio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5368586,
+                    38.2740595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 222,
+                "title": "Scuola Castanea"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5215109,
+                    38.265004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 223,
+                "title": "Scuola Castanea"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5215109,
+                    38.265004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 224,
+                "title": "Ex scuola Spartà"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.543225,
+                    38.2943847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 225,
+                "title": "Ex scuola Spartà"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.543225,
+                    38.2943847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 226,
+                "title": "Ex scuola S. Saba"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4825075,
+                    38.2724534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 227,
+                "title": "Scuola Piano Torre"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.519071,
+                    38.2918981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 228,
+                "title": "Seggio volante CISMEC"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.478535,
+                    38.2670527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 229,
+                "title": "Scuola Salice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.496477,
+                    38.2496287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 230,
+                "title": "Ex scuola Orto Liuzzo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4584001,
+                    38.252696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 231,
+                "title": "Ex scuola Gesso"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.472349,
+                    38.2333516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 232,
+                "title": "Scuola S. Filippo Sup."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4988905,
+                    38.1669404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 233,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 234,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 235,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 236,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 237,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 238,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 239,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 240,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 241,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 242,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 243,
+                "title": "Scuola A. Luciani"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5317457,
+                    38.1720399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 244,
+                "title": "Canonica Cumia Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5025398,
+                    38.1749092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 245,
+                "title": "Canonica Cumia Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5025398,
+                    38.1749092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 246,
+                "title": "Scuola Galati S. Anna"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4903753,
+                    38.111230
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 247,
+                "title": "Scuola Larderia Inf."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4957226,
+                    38.144518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 248,
+                "title": "Scuola S. Lucia Sopra Contesse"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5162593,
+                    38.169591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 249,
+                "title": "Scuola Faro sup."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5818085,
+                    38.2669714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 250,
+                "title": "Seggio speciale Policlinico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5340985,
+                    38.1645151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 251,
+                "title": "Seggio speciale Policlinico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.5340985,
+                    38.1645151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 252,
+                "title": "Seggio speciale Papardo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.594326,
+                    38.2638616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 253,
+                "title": "Seggio speciale Ortopedico Mezzogiorno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6146683,
+                    38.2619289
+                ]
+            }
+        }
+    ]
+}

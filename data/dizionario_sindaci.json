@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id": "1",
+        "nome": "DE DOMENICO FRANCESCO",
+        "colore": "#FF1A00"
+    },
+    "2": {
+        "id": "2",
+        "nome": "STURNIOLO LUIGI",
+        "colore": "#760600"
+    },
+    "3": {
+        "id": "3",
+        "nome": "TOTARO SALVATORE",
+        "colore": "#00CDD1"
+    },
+    "4": {
+        "id": "4",
+        "nome": "BASILE FEDERICO",
+        "colore": "#FCDA0B"
+    },
+    "5": {
+        "id": "5",
+        "nome": "CROCE MAURIZIO",
+        "colore": "#162A88"
+    }
+}

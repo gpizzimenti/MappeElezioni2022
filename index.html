@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <title>Elezioni Amministrative 2022 | Messina</title>
+
+  <link rel="preload stylesheet"as="style"href="styles/libs/leaflet/1.8/leaflet.css"/>
+  <link rel="preload stylesheet"as="style"href="styles/libs/leaflet-dvf-1.0dev/dvf.css"/>  
+  <link rel="preload stylesheet" as="style" href="styles/main.css" />
+
+  <script src="scripts/libs/leaflet/1.8/leaflet.js" defer></script>
+  <script src="scripts/libs/peity-vanilla-0.0.8.min.js" defer></script>
+  <script src="scripts/libs/chroma-2.0.3.min.js" defer></script>  
+  <script src="scripts/main.js" defer></script>    
+  </head>
+  <body>
+
+    <main id="mapWrapper" class="navigatorOpen">
+      <section id="mapContainer"></section>
+      <section id="mapNavigator" aria-expanded="true">
+        <div class="resizableContainer">
+         <div class="scrollingContainer">
+
+            <fieldset>
+              <legend>Legenda & Totali</legend>
+                
+            </fieldset>
+
+            <fieldset>
+              <legend>Grafici</legend>
+                
+                <label for="graficoBars">
+                  <input type="radio" id="graficoBars" value="bar" name="grafico" checked>
+                  Barre
+                </label>
+
+                <label for="graficoPie">
+                  <input type="radio" id="graficoPie" value="pie" name="grafico">
+                  Torte
+                </label>
+
+                <label for="graficoDonut">
+                  <input type="radio" id="graficoDonut" value="donut" name="grafico">
+                  Ciambelle
+                </label>
+
+                <label for="graficoRadial">
+                  <input type="radio" id="graficoRadial" value="radial" name="grafico">
+                  Radiali
+                </label>
+
+                <label for="graficoBlend">
+                  <input type="radio" id="graficoBlend" value="blend" name="grafico">
+                  Composti
+                </label>
+                
+            </fieldset>
+
+            <p>
+              Fonte dati: <a href="https://elezioni.comune.messina.it/2022/amministrative_referendum/comunali/ODTOT_1_83048.xml" target="_blank">Comune di Messina</a> (<i>16/06/2022 - 16:35</i>)
+              <br><br>
+              Realizzazione:  <a href="https://www.linkedin.com/in/giampiero-neri-591b531a7/" target="_blank">Giampiero Neri</a> - <a href="https://www.linkedin.com/in/giuseppepizzimenti/" target="_blank">Giuseppe Pizzimenti</a>
+              <br><br>
+              Ispirata da:  <a href="https://twitter.com/grichter" target="_blank">Guenter Richter</a> - <a href="https://opendatasicilia.it/2022/06/14/palermo-2022-elezioni-amministrative/" target="_blank">Open Data Sicilia</a>
+              <br><br>
+              Ultimo aggiornamento: <b>17/06/2022 - 08:15</b>
+            </p>
+
+         </div> 
+        </div>
+        <button
+          class="btnToggler"
+          tabindex="0"
+          aria-label="Apri navigazione"
+          aria-controls="mapNavigator"
+          title="Apri"
+        ></button>
+      </section>
+    </main>
+
+  </body>
+</html>
+
+
+
+    
