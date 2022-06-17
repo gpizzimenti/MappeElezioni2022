@@ -2,26 +2,31 @@
     "1": {
         "id": "1",
         "nome": "DE DOMENICO FRANCESCO",
-        "colore": "#FF1A00"
+        "colore": "#FF1A00",
+        "totale": 0
     },
     "2": {
         "id": "2",
         "nome": "STURNIOLO LUIGI",
-        "colore": "#760600"
+        "colore": "#760600",
+        "totale": 0
     },
     "3": {
         "id": "3",
         "nome": "TOTARO SALVATORE",
-        "colore": "#00CDD1"
+        "colore": "#00CDD1",
+        "totale": 0
     },
     "4": {
         "id": "4",
         "nome": "BASILE FEDERICO",
-        "colore": "#FCDA0B"
+        "colore": "#FCDA0B",
+        "totale": 0
     },
     "5": {
         "id": "5",
         "nome": "CROCE MAURIZIO",
-        "colore": "#162A88"
+        "colore": "#162A88",
+        "totale": 0
     }
 }
