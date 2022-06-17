@@ -80,7 +80,7 @@ self.onmessage = function (msg) {
      sezione.sindaciSorted = sezione.sindaciSorted.sort((a,b) => {return b.voti - a.voti}); 
     }
 
-console.log(db);
+  //console.log(db);
 
     return db;
   };  
