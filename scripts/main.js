@@ -18,6 +18,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
     dizionario_sindaci: "data/dizionario_sindaci.json",
     sezioni: "data/sezioni.geojson",
     sindaci: "data/sindaci.json",
+    votanti: "data/votanti.json",
     liste: "data/liste.json",
     bianche_nulli_contestazioni: "data/bianche_nulli_contestazioni.json",
     current: {}
@@ -38,6 +39,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
         `<div id="popup-${values.id}" class="popup ${values.class}" data-sezione="${values.id}">
             <h1>${values.sezione.nome}</h1>
             <h2>Nr. Sezione: <b>${values.sezione.sezioni.join(", ")}</b></h2>
+            <h2>Elettori/Votanti: <b>${values.sezione.totali.elettori}</b> / <b>${values.sezione.totali.votanti}</b></h2>
             <h2>Voti validi totali: <b>${values.sezione.totali.voti_sindaco}</b></h2>
             <ul>${values.sezione.sindaciSorted.map((sindaco)=>{
               return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}:&nbsp;<b>${sindaco.voti}</b>&nbsp;(<i>${sindaco.perc}%</i>)</li>`
@@ -415,13 +417,15 @@ LETTERAEMME.context = LETTERAEMME.context || {
             fetch(ns.context.urls.sezioni).then((res) => res.json()),
             fetch(ns.context.urls.sindaci).then((res) => res.json()),
             fetch(ns.context.urls.dizionario_sindaci).then((res) => res.json()),        
+            fetch(ns.context.urls.votanti).then((res) => res.json()),                        
             /*fetch(ns.context.data.liste).then((res) => res.json()),
             fetch(ns.context.data.bianche_nulli_contestazioni).then((res) => res.json()),*/
           ]).then((data)=>{
             const dataPacket = {
               sezioni : data[0],
               sindaci : data[1],
-              dizionario_sindaci : data[2]
+              dizionario_sindaci : data[2],
+              votanti : data[3],
             }
   
             const worker_db = new Worker("scripts/createDB.worker.js");
