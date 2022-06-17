@@ -55,8 +55,8 @@ LETTERAEMME.context = LETTERAEMME.context || {
     setMap();
 
     await loadData().then(() => {
+        renderData();  
         setNavigator();
-        renderData();
         showAllMarkers();
         });        
     };
@@ -66,15 +66,51 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const setNavigator = function setNavigator() {
     const wrapper = document.querySelector("#mapWrapper"),
       navigator = wrapper.querySelector("#mapNavigator"),
-      toggleButton = navigator.querySelector(".btnToggler");
+      toggleButton = navigator.querySelector(".btnToggler"),
+      txtSearchSezioni =  navigator.querySelector("[list=lstSezioni]"),
+      lstSezioni =  navigator.querySelector("#lstSezioni");
 
     toggleButton.addEventListener("click", (event) => {
       toggleSidebar(navigator.getAttribute("aria-expanded") == "false");
     });
 
+    for (let idSezione in ns.context.db) {
+      const sezione =  ns.context.db[idSezione];
+      let opt = document.createElement("option");
+
+        opt.dataset.id=idSezione;
+        opt.value=sezione.nome;
+
+      lstSezioni.append(opt);
+    }    
+
     delegate(navigator, "change", "[type='radio']", function (evt) {
-        renderData();
+      renderData();
     });
+
+
+    txtSearchSezioni.addEventListener("input" , function (evt) { 
+      let optionFound = false;
+
+      for (var j = 0; j < lstSezioni.options.length; j++) {
+        let opt = lstSezioni.options[j];
+
+        if (txtSearchSezioni.value.toUpperCase().trim() == opt.value.toUpperCase().trim()) {
+            optionFound = true;
+            txtSearchSezioni.value= "";
+            const marker = selectMarker(opt.dataset.id);
+
+            if (marker) {
+              ns.context.map.current.flyTo(marker.getLatLng(), 18);
+              marker.openPopup();
+            }
+            break;
+        }
+      }
+
+    });
+
+
   };    
 
   /*******************************************************************************/
@@ -586,6 +622,16 @@ LETTERAEMME.context = LETTERAEMME.context || {
 
     return tmpl(popupValues);
   };
+
+    /*******************************************************************************/
+
+    const selectMarker = function selectMarker(id) {
+
+      return ns.context.map.markers.find((marker)=>{
+          return (marker.options.externalID=="marker_" + id);
+      });
+
+    };
 
   /*******************************************************************************/
 

@@ -14,6 +14,16 @@ body {
     overflow: hidden;
 }
 
+[type="search"] {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #333;
+    border: solid 2px #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 #mapWrapper {
     position: absolute;
     overflow: hidden;
@@ -209,6 +219,7 @@ body {
 #mapNavigator p {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #333;
 }
 
 #mapNavigator fieldset legend {
@@ -298,7 +309,7 @@ body {
 }
 
 svg.peity,
-.bgMarker div {
+.bgMarker>div {
     filter: drop-shadow(2px 2px 1px rgb(0 0 0 / 0.8));
     transition: all .2s ease;
 }
@@ -308,7 +319,7 @@ svg.peity {
     opacity: .8;
 }
 
-.bgMarker div {
+.bgMarker>div {
     width: 100%;
     height: 100%;
     border: solid 1px transparent;
@@ -318,71 +329,71 @@ svg.peity {
 
 
 svg.peity:hover,
-.bgMarker div:hover,
+.bgMarker>div:hover,
 .active svg.peity,
-.active .bgMarker div {
+.active .bgMarker>div {
     opacity: 1;
     filter: drop-shadow(3px 3px 1px rgb(0 0 0 / 0.8)) brightness(1.2);
 }
 
 
 #mapWrapper svg.peity,
-.bgMarker div {
+.bgMarker>div {
     transform: scale(.5);
 }
 
 #mapWrapper[data-zoom="10"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="10"] .bgMarker div {
+#mapWrapper[data-zoom="10"] .bgMarker>div {
     transform: scale(.5);
 }
 
 #mapWrapper[data-zoom="11"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="11"] .bgMarker div {
+#mapWrapper[data-zoom="11"] .bgMarker>div {
     transform: scale(.6);
 }
 
 #mapWrapper[data-zoom="12"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="12"] .bgMarker div {
+#mapWrapper[data-zoom="12"] .bgMarker>div {
     transform: scale(.8);
 }
 
 #mapWrapper[data-zoom="13"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="13"] .bgMarker div {
+#mapWrapper[data-zoom="13"] .bgMarker>div {
     transform: scale(1);
 }
 
 #mapWrapper[data-zoom="14"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="14"] .bgMarker div {
+#mapWrapper[data-zoom="14"] .bgMarker>div {
     transform: scale(1.2);
 }
 
 #mapWrapper[data-zoom="15"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="15"] .bgMarker div {
+#mapWrapper[data-zoom="15"] .bgMarker>div {
     transform: scale(1.7);
 }
 
 #mapWrapper[data-zoom="16"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="16"] .bgMarker div {
+#mapWrapper[data-zoom="16"] .bgMarker>div {
     transform: scale(1.9);
 }
 
 #mapWrapper[data-zoom="17"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="17"] .bgMarker div {
+#mapWrapper[data-zoom="17"] .bgMarker>div {
     transform: scale(2.1);
 }
 
 #mapWrapper[data-zoom="18"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="18"] .bgMarker div {
+#mapWrapper[data-zoom="18"] .bgMarker>div {
     transform: scale(2.5);
 }
 
 #mapWrapper[data-zoom="19"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="19"] .bgMarker div {
+#mapWrapper[data-zoom="19"] .bgMarker>div {
     transform: scale(2.8);
 }
 
 #mapWrapper[data-zoom="20"] .peityMarker svg.peity,
-#mapWrapper[data-zoom="20"] .bgMarker div {
+#mapWrapper[data-zoom="20"] .bgMarker>div {
     transform: scale(3);
 }
 
