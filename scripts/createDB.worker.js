@@ -28,6 +28,8 @@ self.onmessage = function (msg) {
         "sezioni": [],
         "sindaci": JSON.parse(JSON.stringify(data.dizionario_sindaci)),
         "totali" : {
+          "elettori": 0,
+          "votanti": 0,
           "voti_sindaco": 0
         }
       };
@@ -47,6 +49,15 @@ self.onmessage = function (msg) {
           processedData.totali.voti_sindaco += voti_validi;
       });
 
+      data.votanti.filter((el)=>{
+        return el["Sezione"] == sezione.properties.id;
+      }).forEach((sezione)=>{
+        let  elettori =  parseInt(sezione["Elettori"],10),
+             votanti =  parseInt(sezione["Votanti"],10);
+
+          processedData.totali.elettori += elettori;
+          processedData.totali.votanti += votanti;
+      });
      
       processedData.sezioni.push(sezione.properties.id);
 
@@ -69,6 +80,7 @@ self.onmessage = function (msg) {
      sezione.sindaciSorted = sezione.sindaciSorted.sort((a,b) => {return b.voti - a.voti}); 
     }
 
-//console.log(db);
+console.log(db);
+
     return db;
   };  
