@@ -20,7 +20,9 @@ LETTERAEMME.context = LETTERAEMME.context || {
     sindaci: "data/sindaci.json",
     votanti: "data/votanti.json",
     bianche_nulli_contestazioni: "data/bianche_nulli_contestazioni.json",
-    totali: "data/totali.json"
+    totali_sindaci: "data/totali_sindaci.json",
+    totali_bnc: "data/totali_bnc.json",
+    totali_votanti: "data/totali_votanti.json"            
   },
  db: {},
  totali: {},
@@ -79,7 +81,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
     });
 
     setAutocomplete();
-    setMainChart();
+    renderMainChart();
   };    
 
   /*******************************************************************************/
@@ -125,49 +127,65 @@ LETTERAEMME.context = LETTERAEMME.context || {
 
   /*******************************************************************************/
 
-  const setMainChart = function setMainChart() {    
+  const renderMainChart = function renderMainChart() {    
 
     const mainChart= document.getElementById("mainChart");
 
     let html = "", data = [], tot = 0;
 
-    ns.context.totali.sindaci.forEach((sindaco)=>{
-      let colore = ns.context.dizionari.sindaci[sindaco["Numero Sind"]].colore, 
-          nome = ns.context.dizionari.sindaci[sindaco["Numero Sind"]].nome,
-          value = {
-                      "label" : nome.slice(0, nome.lastIndexOf(' ')),
-                      "tot" : sindaco["Voti validi"],
-                      "colore": colore
-                    };
-          data.push(value);          
-          tot+=value.tot;             
-    });  
+    if (getSettings().dati=="sindaci") {
 
-    
-    data.forEach((sindaco)=>{
-      sindaco.perc = parseFloat(((sindaco.tot/tot)*100)).toFixed(2);
-    });  
+        html = "<ul class='sindaci'>"
 
-    const maxPerc = Math.ceil(data[0].perc);
+        ns.context.totali.sindaci.forEach((sindaco)=>{
+          let colore = ns.context.dizionari.sindaci[sindaco["Numero Sind"]].colore, 
+              nome = ns.context.dizionari.sindaci[sindaco["Numero Sind"]].nome,
+              value = {
+                          "label" : nome.slice(0, nome.lastIndexOf(' ')),
+                          "tot" : sindaco["Voti validi"],
+                          "colore": colore
+                        };
+              data.push(value);          
+              tot+=value.tot;             
+        });  
 
-    data.forEach((sindaco)=>{
-      const sizePerc = Math.ceil((100*sindaco.perc)/maxPerc) + 1;
+        
+        data.forEach((sindaco)=>{
+          sindaco.perc = parseFloat(((sindaco.tot/tot)*100)).toFixed(2);
+        });  
 
-      html+=`<li style="--bar-color:${sindaco.colore};">
-        <p>${sindaco.label}</p>
-        <div class="bar-outer">
-          <div class="bar-inner" data-size="${sizePerc}" style="min-width:0;"></div>
-        </div>
-        <data>
-          <b>${sindaco.tot}</b>
-          <br>
-          <i>${sindaco.perc}%</i>
-        </data>
-      </li>`;
+        const maxPerc = Math.ceil(data[0].perc);
 
-    });  
+        data.forEach((sindaco)=>{
+          const sizePerc = Math.ceil((100*sindaco.perc)/maxPerc) + 1;
 
-    mainChart.innerHTML = "<ul>" + html + "</ul>";
+          html+=`<li class="bar" style="--bar-color:${sindaco.colore};">
+            <p>${sindaco.label}</p>
+            <div class="bar-outer">
+              <div class="bar-inner" data-size="${sizePerc}" style="min-width:0;"></div>
+            </div>
+            <data>
+              <b>${sindaco.tot}</b>
+              <br>
+              <i>${sindaco.perc}%</i>
+            </data>
+          </li>`;
+
+        });  
+  }
+
+
+    html+=`</ul><ul><li class="report">
+     <p>Elettori / Votanti:</p>
+     <data><b>${ns.context.totali.votanti.Elettori}</b> / <b>${ns.context.totali.votanti.Votanti}</b> (<i>${parseFloat(((ns.context.totali.votanti.Votanti/ns.context.totali.votanti.Elettori)*100)).toFixed(2)}%</i>)</data>
+    </li>
+    <li class="report">
+     <p>Bianche / Nulle / Contestate:</p>
+     <data><b>${ns.context.totali.bianche_nulli_contestazioni["Schede bianche"]}</b> / <b>${ns.context.totali.bianche_nulli_contestazioni["Schede nulle"]}</b> / <b>${ns.context.totali.bianche_nulli_contestazioni["V.Cont.NoAss."]}</b> (<i>${parseFloat(((((parseInt(ns.context.totali.bianche_nulli_contestazioni["Schede bianche"])+parseInt(ns.context.totali.bianche_nulli_contestazioni["Schede nulle"])+parseInt(ns.context.totali.bianche_nulli_contestazioni["V.Cont.NoAss."]) ))/ns.context.totali.votanti.Votanti)*100)).toFixed(2)}%</i>)</data>
+    </li></ul>`;
+
+
+    mainChart.innerHTML = html;
 
     i=1;
     mainChart.querySelectorAll(".bar-inner").forEach((li)=>{
@@ -519,10 +537,15 @@ LETTERAEMME.context = LETTERAEMME.context || {
             fetch(ns.context.urls.dizionario_sindaci).then((res) => res.json()),        
             fetch(ns.context.urls.votanti).then((res) => res.json()),
             fetch(ns.context.urls.bianche_nulli_contestazioni).then((res) => res.json()),
-            fetch(ns.context.urls.totali).then((res) => res.json())                                                            
+            fetch(ns.context.urls.totali_sindaci).then((res) => res.json()),                                                            
+            fetch(ns.context.urls.totali_bnc).then((res) => res.json()),
+            fetch(ns.context.urls.totali_votanti).then((res) => res.json())            
           ]).then((data)=>{
 
             ns.context.totali.sindaci = data[5].sort((a,b) => {return b["Voti validi"] - a["Voti validi"]}); 
+            ns.context.totali.bianche_nulli_contestazioni = data[6][0];
+            ns.context.totali.votanti = data[7].pop();
+
             ns.context.dizionari.sindaci = data[2];
 
             const dataPacket = {
