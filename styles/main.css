@@ -199,7 +199,7 @@ body {
     border-radius: 4px;
 }
 
-#mapWrapper.navigatorOpen #mapNavigator .scrollingContainer p {
+#mapWrapper.navigatorOpen #mapNavigator .scrollingContainer>p {
     margin-top: auto;
 }
 
@@ -569,6 +569,7 @@ svg.peity:hover,
 #mainChart ul li>p {
     flex: 0 0 100px;
     white-space: nowrap;
+    margin-top: 0;
 }
 
 #mainChart ul li>.bar-outer {
