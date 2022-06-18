@@ -8,8 +8,12 @@ html,
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    min-width: -webkit-fill-available;
+    min-height: -webkit-fill-available;
     position: relative;
     overflow: hidden;
 }
