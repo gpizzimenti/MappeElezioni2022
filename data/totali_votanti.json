@@ -1,0 +1,29 @@
+[
+    {
+        "Giorno Ora": "DOMENICA 12:00",
+        "Elettori maschi": 90982,
+        "Votanti maschi": 0,
+        "Elettori femmine": 101090,
+        "Votanti femmine": 0,
+        "Elettori": 192072,
+        "Votanti": 31991
+    },
+    {
+        "Giorno Ora": "DOMENICA 19:00",
+        "Elettori maschi": 90982,
+        "Votanti maschi": 0,
+        "Elettori femmine": 101090,
+        "Votanti femmine": 0,
+        "Elettori": 192072,
+        "Votanti": 76494
+    },
+    {
+        "Giorno Ora": "DOMENICA 23:00",
+        "Elettori maschi": 90982,
+        "Votanti maschi": 51787,
+        "Elettori femmine": 101090,
+        "Votanti femmine": 54651,
+        "Elettori": 192072,
+        "Votanti": 106438
+    }
+]
