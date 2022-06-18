@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
     min-width: -webkit-fill-available;
     min-height: -webkit-fill-available;
-    position: relative;
     overflow: hidden;
 }
 
