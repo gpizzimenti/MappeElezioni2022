@@ -42,11 +42,11 @@ LETTERAEMME.context = LETTERAEMME.context || {
         `<div id="popup-${values.id}" class="popup ${values.class}" data-sezione="${values.id}">
             <h1>${values.sezione.nome}</h1>
             <h2>Nr. Sezione: <b>${values.sezione.sezioni.join(", ")}</b></h2>
-            <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori}</b> / <b>${values.sezione.totali.votanti}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
-            <h2>Voti validi: <b>${values.sezione.totali.voti_sindaco}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_sindaco>0)  ? parseFloat(((values.sezione.totali.voti_sindaco/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
-            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche}</b> / <b>${values.sezione.totali.nulli}</b> / <b>${values.sezione.totali.contestazioni}</b> (<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
+            <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.votanti.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
+            <h2>Voti validi: <b>${values.sezione.totali.voti_sindaco.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_sindaco>0)  ? parseFloat(((values.sezione.totali.voti_sindaco/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
+            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.nulli.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.contestazioni.toLocaleString('it-IT')}</b> (<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
             <ul>${values.sezione.sindaciSorted.map((sindaco)=>{
-              return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}: <b>${sindaco.voti}</b> (<i>${sindaco.perc}%</i>)</li>`
+              return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}: <b>${sindaco.voti.toLocaleString('it-IT')}</b> (<i>${sindaco.perc}%</i>)</li>`
             }).join("")}</ul>
         </div>`      
  };
@@ -165,7 +165,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
               <div class="bar-inner" data-size="${sizePerc}" style="min-width:0;"></div>
             </div>
             <data>
-              <b>${sindaco.tot}</b>
+              <b>${sindaco.tot.toLocaleString('it-IT')}</b>
               <br>
               <i>${sindaco.perc}%</i>
             </data>
@@ -177,11 +177,11 @@ LETTERAEMME.context = LETTERAEMME.context || {
 
     html+=`</ul><ul><li class="report">
      <p>Elettori / Votanti:</p>
-     <data><b>${ns.context.totali.votanti.Elettori}</b> / <b>${ns.context.totali.votanti.Votanti}</b> (<i>${parseFloat(((ns.context.totali.votanti.Votanti/ns.context.totali.votanti.Elettori)*100)).toFixed(2)}%</i>)</data>
+     <data><b>${ns.context.totali.votanti.Elettori.toLocaleString('it-IT')}</b> / <b>${ns.context.totali.votanti.Votanti.toLocaleString('it-IT')}</b> (<i>${parseFloat(((ns.context.totali.votanti.Votanti/ns.context.totali.votanti.Elettori)*100)).toFixed(2)}%</i>)</data>
     </li>
     <li class="report">
      <p>Bianche / Nulle / Contestate:</p>
-     <data><b>${ns.context.totali.bianche_nulli_contestazioni["Schede bianche"]}</b> / <b>${ns.context.totali.bianche_nulli_contestazioni["Schede nulle"]}</b> / <b>${ns.context.totali.bianche_nulli_contestazioni["V.Cont.NoAss."]}</b> (<i>${parseFloat(((((parseInt(ns.context.totali.bianche_nulli_contestazioni["Schede bianche"])+parseInt(ns.context.totali.bianche_nulli_contestazioni["Schede nulle"])+parseInt(ns.context.totali.bianche_nulli_contestazioni["V.Cont.NoAss."]) ))/ns.context.totali.votanti.Votanti)*100)).toFixed(2)}%</i>)</data>
+     <data><b>${ns.context.totali.bianche_nulli_contestazioni["Schede bianche"].toLocaleString('it-IT')}</b> / <b>${ns.context.totali.bianche_nulli_contestazioni["Schede nulle"].toLocaleString('it-IT')}</b> / <b>${ns.context.totali.bianche_nulli_contestazioni["V.Cont.NoAss."].toLocaleString('it-IT')}</b> (<i>${parseFloat(((((parseInt(ns.context.totali.bianche_nulli_contestazioni["Schede bianche"])+parseInt(ns.context.totali.bianche_nulli_contestazioni["Schede nulle"])+parseInt(ns.context.totali.bianche_nulli_contestazioni["V.Cont.NoAss."]) ))/ns.context.totali.votanti.Votanti)*100)).toFixed(2)}%</i>)</data>
     </li></ul>`;
 
 
