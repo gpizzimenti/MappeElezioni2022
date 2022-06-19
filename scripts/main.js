@@ -41,12 +41,12 @@ LETTERAEMME.context = LETTERAEMME.context || {
     popupSindaco: (values) =>
         `<div id="popup-${values.id}" class="popup ${values.class}" data-sezione="${values.id}">
             <h1>${values.sezione.nome}</h1>
-            <h2>Nr. Sezione: <b>${values.sezione.sezioni.join(", ")}</b></h2>
+            <h2>Nr. Sezione:&nbsp;<b>${values.sezione.sezioni.join(", ")}</b></h2>
             <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.votanti.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
             <h2>Voti validi: <b>${values.sezione.totali.voti_sindaco.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_sindaco>0)  ? parseFloat(((values.sezione.totali.voti_sindaco/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
-            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.nulli.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.contestazioni.toLocaleString('it-IT')}</b> (<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
+            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche.toLocaleString('it-IT')}</b>&nbsp;/&nbsp;<b>${values.sezione.totali.nulli.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.contestazioni.toLocaleString('it-IT')}</b>&nbsp;(<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
             <ul>${values.sezione.sindaciSorted.map((sindaco)=>{
-              return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}: <b>${sindaco.voti.toLocaleString('it-IT')}</b> (<i>${sindaco.perc}%</i>)</li>`
+              return `<li style="--dot-color:${sindaco.colore};"><span>${sindaco.nome.slice(0, sindaco.nome.lastIndexOf(' '))}</span> <b>${sindaco.voti.toLocaleString('it-IT')}</b>&nbsp;(<i>${sindaco.perc}%</i>)</li>`
             }).join("")}</ul>
         </div>`      
  };
@@ -77,6 +77,15 @@ LETTERAEMME.context = LETTERAEMME.context || {
     });
 
     delegate(navigator, "change", "[type='radio']", function (evt) {
+      const chk = evt.target;
+
+       wrapper.dataset[chk.name] = chk.value;
+       
+       if (chk.name=="dati") {
+                navigator.querySelector("div[data-dati='" +  chk.value + "'] [type='radio']").checked=true;
+                renderMainChart();
+       }
+      
       renderData();
     });
 
@@ -114,7 +123,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
   
               if (marker) {
                 ns.context.map.current.flyTo(marker.getLatLng(), 18);
-                marker.openPopup();
+                toggleMarker(marker,true);
               }
               break;
           }
@@ -632,8 +641,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const getSettings = function getSettings() {
     const
     navigator = document.querySelector("#mapNavigator"),
-    //dati = navigator.querySelector("[name='dati']:checked").value,
-    dati = "sindaci",
+    dati = navigator.querySelector("[name='dati']:checked").value,
     grafico = navigator.querySelector("[name='grafico']:checked").value;
 
     return {
@@ -689,6 +697,9 @@ LETTERAEMME.context = LETTERAEMME.context || {
       externalID: "marker_" + id,
     });
 
+    marker.on("click", function (event) {
+     toggleMarker(marker);
+    });    
 
     marker.bindPopup(renderPopup(id, sezione, settings ), {
       closeOnClick: true,
@@ -712,18 +723,42 @@ LETTERAEMME.context = LETTERAEMME.context || {
       tmpl = ns.templates.popupSindaco
     }
 
-    return tmpl(popupValues);
+    if (tmpl) return tmpl(popupValues);
   };
 
     /*******************************************************************************/
 
     const selectMarker = function selectMarker(id) {
 
-      return ns.context.map.markers.find((marker)=>{
-          return (marker.options.externalID=="marker_" + id);
+      const marker =  ns.context.map.markers.find((marker)=>{
+         return marker.options.externalID=="marker_" + id;
       });
 
+      if (marker) ns.context.map.currentMarker = marker;
+
+      return marker;  
+
     };
+
+    /*******************************************************************************/
+
+    const toggleMarker = function togglerMarker(marker,state) {
+      if (!marker) return false;
+
+      const toggledMarker = document.querySelector(".leaflet-marker-icon.toggled");
+          
+      if (toggledMarker)  toggledMarker.classList.remove("toggled");
+
+      if (state) {
+          marker.openPopup();
+      } else {
+          marker.closePopup();
+      }
+      
+      marker._icon.classList.toggle("toggled",state);
+    };
+
+
 
   /*******************************************************************************/
 

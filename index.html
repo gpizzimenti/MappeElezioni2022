@@ -21,13 +21,29 @@
   </head>
   <body>
 
-    <main id="mapWrapper" class="navigatorOpen">
+    <main id="mapWrapper" class="navigatorOpen" data-dati="sindaci"  data-grafico="bar">
       <section id="mapContainer"></section>
       <section id="mapNavigator" aria-expanded="true">
         <div class="resizableContainer">
          <div class="scrollingContainer">
 
-            <fieldset>
+          <fieldset id="fieldsDati">
+            <legend>Dati</legend>
+
+            <label for="datiSindaci">
+                <input type="radio" id="datiSindaci" value="sindaci" name="dati" checked>
+                Sindaci
+              </label>
+
+            <label for="datiListe">
+              <input type="radio" id="datiListe" value="liste" name="dati">
+              Liste
+            </label>
+
+          </fieldset>
+
+
+            <fieldset id="fieldsTotali">
               <legend>Legenda & Totali</legend>
                 
               <div id="mainChart">
@@ -38,8 +54,9 @@
 
             <fieldset>
               <legend>Grafici</legend>
-                
-                <label for="graficoBars">
+
+              <div  data-dati="sindaci">
+              <label for="graficoBars">
                   <input type="radio" id="graficoBars" value="bar" name="grafico" checked>
                   Barre
                 </label>
@@ -63,8 +80,23 @@
                   <input type="radio" id="graficoBlend" value="blend" name="grafico">
                   Composti
                 </label>
-                
-            </fieldset>
+
+              </div>
+
+            <div data-dati="liste">
+
+              <label for="graficoColors">
+                  <input type="radio" id="graficoColors" value="colori" name="grafico">
+                  Colori
+                </label>
+
+                <label for="graficoSimboli">
+                  <input type="radio" id="graficoSimboli" value="simboli" name="grafico">
+                  Simboli
+                </label>
+            </div>
+
+            </fieldset>            
 
             <input type="search" list="lstSezioni" placeholder="Cerca il seggio">
             <datalist id="lstSezioni">
