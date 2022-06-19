@@ -651,7 +651,7 @@ svg.peity:hover,
     content: '';
     width: 12px;
     height: 12px;
-    background: #464646;
+    background: #7e7e7e;
     position: absolute;
     top: 4px;
     left: 4px;
@@ -670,6 +670,11 @@ svg.peity:hover,
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+
+[type="radio"]:checked+label {
+    font-weight: bold;
 }
 
 @keyframes spinner {

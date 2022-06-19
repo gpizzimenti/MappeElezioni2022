@@ -211,8 +211,8 @@
         "Area": "",
         "Sezione": 27,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 25,
+        "Schede bianche": 27,
         "V.Cont.NoAss.": 0
     },
     {
@@ -251,8 +251,8 @@
         "Area": "",
         "Sezione": 32,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 6,
+        "Schede bianche": 7,
         "V.Cont.NoAss.": 0
     },
     {
@@ -331,8 +331,8 @@
         "Area": "",
         "Sezione": 42,
         "Voti nulli": 0,
-        "Schede nulle": 25,
-        "Schede bianche": 17,
+        "Schede nulle": 17,
+        "Schede bianche": 25,
         "V.Cont.NoAss.": 0
     },
     {
@@ -347,8 +347,8 @@
         "Area": "",
         "Sezione": 44,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 35,
+        "Schede bianche": 5,
         "V.Cont.NoAss.": 0
     },
     {
@@ -387,8 +387,8 @@
         "Area": "",
         "Sezione": 49,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 9,
+        "Schede bianche": 7,
         "V.Cont.NoAss.": 0
     },
     {
@@ -427,8 +427,8 @@
         "Area": "",
         "Sezione": 54,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 17,
+        "Schede bianche": 4,
         "V.Cont.NoAss.": 0
     },
     {
@@ -555,8 +555,8 @@
         "Area": "",
         "Sezione": 70,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 20,
+        "Schede bianche": 6,
         "V.Cont.NoAss.": 0
     },
     {
@@ -1043,8 +1043,8 @@
         "Area": "",
         "Sezione": 131,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 4,
+        "Schede bianche": 7,
         "V.Cont.NoAss.": 0
     },
     {
@@ -1507,8 +1507,8 @@
         "Area": "",
         "Sezione": 189,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
+        "Schede nulle": 22,
+        "Schede bianche": 9,
         "V.Cont.NoAss.": 0
     },
     {
@@ -1779,9 +1779,9 @@
         "Area": "",
         "Sezione": 223,
         "Voti nulli": 0,
-        "Schede nulle": 0,
-        "Schede bianche": 0,
-        "V.Cont.NoAss.": 0
+        "Schede nulle": 22,
+        "Schede bianche": 5,
+        "V.Cont.NoAss.": 29
     },
     {
         "Area": "",
@@ -2019,7 +2019,7 @@
         "Area": "",
         "Sezione": 253,
         "Voti nulli": 0,
-        "Schede nulle": 0,
+        "Schede nulle": 1,
         "Schede bianche": 0,
         "V.Cont.NoAss.": 0
     }
