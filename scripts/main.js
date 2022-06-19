@@ -59,8 +59,8 @@ LETTERAEMME.context = LETTERAEMME.context || {
     setMap();
 
     await loadData().then(() => {
-        renderData();  
         setNavigator();
+        renderData();  
         showAllMarkers();
         });        
     };
@@ -70,7 +70,12 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const setNavigator = function setNavigator() {
     const wrapper = document.querySelector("#mapWrapper"),
       navigator = wrapper.querySelector("#mapNavigator"),
-      toggleButton = navigator.querySelector(".btnToggler");
+      toggleButton = navigator.querySelector(".btnToggler"),
+      hash = location.hash && location.hash.toLowerCase().substring(1);
+
+
+    if (hash && ["sindaci","liste"].includes(hash))
+          navigator.querySelector("[name='dati'][value='"+hash+"']").checked=true; 
 
     toggleButton.addEventListener("click", (event) => {
       toggleSidebar(navigator.getAttribute("aria-expanded") == "false");
@@ -82,6 +87,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
        wrapper.dataset[chk.name] = chk.value;
        
        if (chk.name=="dati") {
+                location.hash = "#" + chk.value;
                 navigator.querySelector("div[data-dati='" +  chk.value + "'] [type='radio']").checked=true;
                 renderMainChart();
        }
