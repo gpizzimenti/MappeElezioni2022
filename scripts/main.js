@@ -316,13 +316,108 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const setMapControls = function setMapControls() {
     setMapZoomControls();
     setMapLayersControls();
-
+    setFullScreenControls();
+    
     L.control
       .attribution({
         position: "bottomleft",
       })
       .addTo(ns.context.map.current);
   };      
+
+    /*******************************************************************************/
+
+    const setFullScreenControls = function setFullScreenControls() {
+      L.Control.fullscreenBar = L.Control.extend({
+        options: {
+          position: "topleft",
+          titleIn: "Attiva fullscreen",
+          titleOut: "Disattiva fullscreen",
+        },
+        onAdd: function (map) {
+          var controlName = "ctl-fullscreen",
+            container = L.DomUtil.create("div", controlName + " leaflet-bar"),
+            options = this.options;
+  
+          this._fullscreenButton = this._createButton(
+            "",
+            options.titleIn,
+            controlName + "-toggle",
+            container,
+            this._toggleFullscreen
+          );
+  
+          const that = this;
+  
+          document.addEventListener("fullscreenchange", (event) => {
+            if (document.fullscreenElement) {
+              L.DomUtil.addClass(that._fullscreenButton, "toggled");
+              that._fullscreenButton.setAttribute(
+                "aria-label",
+                that.options.titleOut
+              );
+              that._fullscreenButton.setAttribute("title", that.options.titleOut);
+            } else {
+              L.DomUtil.removeClass(that._fullscreenButton, "toggled");
+              that._fullscreenButton.setAttribute(
+                "aria-label",
+                that.options.titleIn
+              );
+              that._fullscreenButton.setAttribute("title", that.options.titleIn);
+            }
+          });
+  
+          return container;
+        },
+        _exitFullscreen: function (e) {
+          const that = this;
+          document.exitFullscreen().catch(() => {});
+        },
+        _enterFullscreen: function (e) {
+          const that = this;
+          document.body.requestFullscreen().catch(() => {});
+        },
+        _toggleFullscreen: function (e) {
+          this._fullScreenMode =
+            document.fullScreen ||
+            document.mozFullScreen ||
+            document.webkitIsFullScreen;
+          if (this._fullScreenMode) {
+            this._exitFullscreen();
+          } else {
+            const that = this;
+            that._enterFullscreen();
+            document.addEventListener(
+              "keydown",
+              (evt) => {
+                if (evt.key === "Escape") {
+                  that._exitFullscreen();
+                }
+              },
+              { once: true }
+            );
+          }
+        },
+        _createButton: function (html, title, className, container, fn) {
+          var link = L.DomUtil.create("a", className, container);
+          link.innerHTML = html;
+          link.href = "#";
+          link.title = title;
+          link.setAttribute("tabindex", 0);
+          link.setAttribute("aria-label", title);
+          link.setAttribute("role", "button");
+  
+          L.DomEvent.on(link, "mousedown dblclick", L.DomEvent.stopPropagation)
+            .on(link, "click", L.DomEvent.stop)
+            .on(link, "click", fn, this);
+  
+          return link;
+        },
+      });
+  
+      const fullscreenBar = new L.Control.fullscreenBar();
+      fullscreenBar.addTo(ns.context.map.current);
+    };
 
   /*******************************************************************************/
 
