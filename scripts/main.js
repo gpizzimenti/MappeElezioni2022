@@ -16,11 +16,14 @@ LETTERAEMME.context = LETTERAEMME.context || {
   },
   urls: {
     dizionario_sindaci: "data/dizionario_sindaci.json",
+    dizionario_liste: "data/dizionario_liste.json",
     sezioni: "data/sezioni.geojson",
     sindaci: "data/sindaci.json",
     votanti: "data/votanti.json",
+    liste: "data/liste.json",
     bianche_nulli_contestazioni: "data/bianche_nulli_contestazioni.json",
     totali_sindaci: "data/totali_sindaci.json",
+    totali_liste: "data/totali_liste.json",            
     totali_bnc: "data/totali_bnc.json",
     totali_votanti: "data/totali_votanti.json"            
   },
@@ -30,6 +33,17 @@ LETTERAEMME.context = LETTERAEMME.context || {
 };
 
  LETTERAEMME.templates = LETTERAEMME.templates || {
+      barGraph : (values) => `<li class="bar" style="--bar-color:${values.colore};--bar-symbol:${values.simbolo};"  title="${values.label}">
+      <p>${values.label}</p>
+      <div class="bar-outer">
+        <div class="bar-inner" data-size="${values.sizePerc}" style="min-width:0;"></div>
+      </div>
+      <data>
+        <b>${values.tot.toLocaleString('it-IT')}</b>
+        <br>
+        <i>${values.perc}%</i>
+      </data>
+    </li>`,
     peityMarker: (values) =>
       `<div id="marker-${values.id}" data-sezione="${values.id}" title="${values.nome}">
         <span class="chart ${values.class}" data-fills="${values.fills}" data-size="${values.size}">${values.serie}</span>
@@ -41,14 +55,25 @@ LETTERAEMME.context = LETTERAEMME.context || {
     popupSindaco: (values) =>
         `<div id="popup-${values.id}" class="popup ${values.class}" data-sezione="${values.id}">
             <h1>${values.sezione.nome}</h1>
-            <h2>Nr. Sezione: <b>${values.sezione.sezioni.join(", ")}</b></h2>
+            <h2>Nr. Sezione:&nbsp;<b>${values.sezione.sezioni.join(", ")}</b></h2>
             <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.votanti.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
             <h2>Voti validi: <b>${values.sezione.totali.voti_sindaco.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_sindaco>0)  ? parseFloat(((values.sezione.totali.voti_sindaco/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
-            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.nulli.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.contestazioni.toLocaleString('it-IT')}</b> (<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
+            <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche.toLocaleString('it-IT')}</b>&nbsp;/&nbsp;<b>${values.sezione.totali.nulli.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.contestazioni.toLocaleString('it-IT')}</b>&nbsp;(<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
             <ul>${values.sezione.sindaciSorted.map((sindaco)=>{
-              return `<li style="--dot-color:${sindaco.colore};">${sindaco.nome}: <b>${sindaco.voti.toLocaleString('it-IT')}</b> (<i>${sindaco.perc}%</i>)</li>`
+              return `<li style="--dot-color:${sindaco.colore};"><span>${sindaco.nome.slice(0, sindaco.nome.lastIndexOf(' '))}</span> <b>${sindaco.voti.toLocaleString('it-IT')}</b>&nbsp;(<i>${sindaco.perc}%</i>)</li>`
             }).join("")}</ul>
-        </div>`      
+        </div>`,
+    popupLista: (values) =>
+            `<div id="popup-${values.id}" class="popup ${values.class}" data-sezione="${values.id}">
+                <h1>${values.sezione.nome}</h1>
+                <h2>Nr. Sezione:&nbsp;<b>${values.sezione.sezioni.join(", ")}</b></h2>
+                <h2>Elettori / Votanti: <b>${values.sezione.totali.elettori.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.votanti.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.elettori>0 && values.sezione.totali.votanti>0)  ? parseFloat(((values.sezione.totali.votanti/values.sezione.totali.elettori)*100).toFixed(2)) : 0}%</i>)</h2>
+                <h2>Voti validi: <b>${values.sezione.totali.voti_lista.toLocaleString('it-IT')}</b> (<i>${(values.sezione.totali.votanti>0 && values.sezione.totali.voti_lista>0)  ? parseFloat(((values.sezione.totali.voti_lista/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>
+                <h2>Bianche / Nulli / Contestate: <b>${values.sezione.totali.bianche.toLocaleString('it-IT')}</b>&nbsp;/&nbsp;<b>${values.sezione.totali.nulli.toLocaleString('it-IT')}</b> / <b>${values.sezione.totali.contestazioni.toLocaleString('it-IT')}</b>&nbsp;(<i>${((parseInt(values.sezione.totali.bianche,10)+parseInt(values.sezione.totali.nulli,10)+parseInt(values.sezione.totali.contestazioni,10))>0 && values.sezione.totali.votanti >0)  ? parseFloat((((parseInt(values.sezione.totali.bianche)+parseInt(values.sezione.totali.nulli)+parseInt(values.sezione.totali.contestazioni))/values.sezione.totali.votanti)*100).toFixed(2)) : 0}%</i>)</h2>            
+                <ul>${values.sezione.listeSorted.map((lista)=>{
+                  return `<li title="${lista.nome}" style="--dot-color:${lista.colore};"><span>${lista.nome}</span> <b>${lista.voti.toLocaleString('it-IT')}</b>&nbsp;(<i>${lista.perc}%</i>)</li>`
+                }).join("")}</ul>
+            </div>`      
  };
 
  LETTERAEMME.modules.main = (function (ns) {
@@ -59,8 +84,8 @@ LETTERAEMME.context = LETTERAEMME.context || {
     setMap();
 
     await loadData().then(() => {
-        renderData();  
         setNavigator();
+        renderData();  
         showAllMarkers();
         });        
     };
@@ -70,13 +95,34 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const setNavigator = function setNavigator() {
     const wrapper = document.querySelector("#mapWrapper"),
       navigator = wrapper.querySelector("#mapNavigator"),
-      toggleButton = navigator.querySelector(".btnToggler");
+      toggleButton = navigator.querySelector(".btnToggler"),
+      hash = location.hash && location.hash.toLowerCase().substring(1);
+
+
+    if (hash && ["sindaci","liste"].includes(hash)) {
+        navigator.querySelector("[name='dati'][value='"+hash+"']").checked=true; 
+        navigator.querySelector("div[data-dati='" +  hash + "'] [type='radio']").checked=true;
+        wrapper.dataset.dati=hash;
+    }
+      
 
     toggleButton.addEventListener("click", (event) => {
       toggleSidebar(navigator.getAttribute("aria-expanded") == "false");
     });
 
     delegate(navigator, "change", "[type='radio']", function (evt) {
+      const chk = evt.target;
+
+       wrapper.dataset[chk.name] = chk.value;
+       
+       if (chk.name=="dati") {
+                location.hash = "#" + chk.value;
+                navigator.querySelector("div[data-dati='" +  chk.value + "'] [type='radio']").checked=true;
+                renderMainChart();
+       } else if (["apparentate","singole"].includes(chk.value)) {
+          renderMainChart();  
+       }
+      
       renderData();
     });
 
@@ -114,7 +160,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
   
               if (marker) {
                 ns.context.map.current.flyTo(marker.getLatLng(), 18);
-                marker.openPopup();
+                toggleMarker(marker,true);
               }
               break;
           }
@@ -129,11 +175,12 @@ LETTERAEMME.context = LETTERAEMME.context || {
 
   const renderMainChart = function renderMainChart() {    
 
-    const mainChart= document.getElementById("mainChart");
+    const mainChart= document.getElementById("mainChart"),
+          settings = getSettings();
 
     let html = "", data = [], tot = 0;
 
-    if (getSettings().dati=="sindaci") {
+    if (settings.dati=="sindaci") {
 
         html = "<ul class='sindaci'>"
 
@@ -143,7 +190,8 @@ LETTERAEMME.context = LETTERAEMME.context || {
               value = {
                           "label" : nome.slice(0, nome.lastIndexOf(' ')),
                           "tot" : sindaco["Voti validi"],
-                          "colore": colore
+                          "colore": colore,
+                          "simbolo":  "url(../images/sindaci/" + sindaco["Numero Sind"]+ ".jpg)" 
                         };
               data.push(value);          
               tot+=value.tot;             
@@ -159,19 +207,43 @@ LETTERAEMME.context = LETTERAEMME.context || {
         data.forEach((sindaco)=>{
           const sizePerc = Math.ceil((100*sindaco.perc)/maxPerc) + 1;
 
-          html+=`<li class="bar" style="--bar-color:${sindaco.colore};">
-            <p>${sindaco.label}</p>
-            <div class="bar-outer">
-              <div class="bar-inner" data-size="${sizePerc}" style="min-width:0;"></div>
-            </div>
-            <data>
-              <b>${sindaco.tot.toLocaleString('it-IT')}</b>
-              <br>
-              <i>${sindaco.perc}%</i>
-            </data>
-          </li>`;
+          sindaco.sizePerc = sizePerc;
 
+          html += ns.templates.barGraph(sindaco);
         });  
+  } else {
+    html = "<ul class='liste'>"
+
+    ns.context.totali.liste.forEach((lista)=>{
+      let idLista = lista["Numero Liste"],
+          idSindaco = ns.context.dizionari.liste[idLista].idSindaco,
+          colore = ns.context.dizionari.sindaci[idSindaco].colore, 
+          nome = ns.context.dizionari.liste[idLista].nome,
+          value = {
+                      "label" : nome,
+                      "tot" : lista["Voti validi"],
+                      "colore": colore,
+                      "simbolo":  "url(../images/simboli/lista" + idLista + ".png)" 
+                    };
+          data.push(value);          
+          tot+=value.tot;             
+    });  
+
+    
+    data.forEach((lista)=>{
+      lista.perc = parseFloat(((lista.tot/tot)*100)).toFixed(2);
+    });  
+
+    const maxPerc = Math.ceil(data[0].perc);
+
+    data.forEach((lista)=>{
+      const sizePerc = Math.ceil((100*lista.perc)/maxPerc) + 1;
+
+      lista.sizePerc = sizePerc;
+
+      html += ns.templates.barGraph(lista);
+    });  
+
   }
 
 
@@ -188,8 +260,10 @@ LETTERAEMME.context = LETTERAEMME.context || {
     mainChart.innerHTML = html;
 
     i=1;
+
     mainChart.querySelectorAll(".bar-inner").forEach((li)=>{
-      setTimeout(()=>{li.style.minWidth=li.dataset.size+"%"},i*500);
+      let size =  li.dataset.size + "%";
+      setTimeout(()=>{li.style.minWidth=size},i*(i<10 ? 400 : 50));
       i+=1;
     });
 
@@ -417,7 +491,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
   
       const fullscreenBar = new L.Control.fullscreenBar();
       fullscreenBar.addTo(ns.context.map.current);
-    };
+    };    
 
   /*******************************************************************************/
 
@@ -634,21 +708,28 @@ LETTERAEMME.context = LETTERAEMME.context || {
             fetch(ns.context.urls.bianche_nulli_contestazioni).then((res) => res.json()),
             fetch(ns.context.urls.totali_sindaci).then((res) => res.json()),                                                            
             fetch(ns.context.urls.totali_bnc).then((res) => res.json()),
-            fetch(ns.context.urls.totali_votanti).then((res) => res.json())            
+            fetch(ns.context.urls.totali_votanti).then((res) => res.json()),            
+            fetch(ns.context.urls.dizionario_liste).then((res) => res.json()),                                
+            fetch(ns.context.urls.liste).then((res) => res.json()),
+            fetch(ns.context.urls.totali_liste).then((res) => res.json()),                        
           ]).then((data)=>{
 
             ns.context.totali.sindaci = data[5].sort((a,b) => {return b["Voti validi"] - a["Voti validi"]}); 
             ns.context.totali.bianche_nulli_contestazioni = data[6][0];
             ns.context.totali.votanti = data[7].pop();
+            ns.context.totali.liste = data[10].sort((a,b) => {return b["Voti validi"] - a["Voti validi"]}); 
 
             ns.context.dizionari.sindaci = data[2];
+            ns.context.dizionari.liste = data[8];
 
             const dataPacket = {
               sezioni : data[0],
               sindaci : data[1],
               dizionario_sindaci : data[2],
               votanti : data[3],
-              bianche_nulli_contestazioni : data[4]  
+              bianche_nulli_contestazioni : data[4],
+              dizionario_liste : data[8],    
+              liste : data[9]    
             }
   
             const worker_db = new Worker("scripts/createDB.worker.js");
@@ -727,8 +808,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
   const getSettings = function getSettings() {
     const
     navigator = document.querySelector("#mapNavigator"),
-    //dati = navigator.querySelector("[name='dati']:checked").value,
-    dati = "sindaci",
+    dati = navigator.querySelector("[name='dati']:checked").value,
     grafico = navigator.querySelector("[name='grafico']:checked").value;
 
     return {
@@ -784,6 +864,9 @@ LETTERAEMME.context = LETTERAEMME.context || {
       externalID: "marker_" + id,
     });
 
+    marker.on("click", function (event) {
+     toggleMarker(marker);
+    });    
 
     marker.bindPopup(renderPopup(id, sezione, settings ), {
       closeOnClick: true,
@@ -797,37 +880,54 @@ LETTERAEMME.context = LETTERAEMME.context || {
 
   /*******************************************************************************/
   const renderPopup = function renderPopup(id, sezione, settings ) {
-    let tmpl, popupValues;  
-    if (settings.dati=="sindaci") {
-       popupValues = {
-        id:id,
-        class: settings.grafico,
-        sezione: sezione
-      }
-      tmpl = ns.templates.popupSindaco
-    }
+    let tmpl = (settings.dati=="sindaci") ?  ns.templates.popupSindaco :  ns.templates.popupLista,
+       popupValues =   {
+          id:id,
+          class: settings.grafico,
+          sezione: sezione
+    };
 
-    return tmpl(popupValues);
+    if (tmpl) return tmpl(popupValues);
   };
 
     /*******************************************************************************/
 
     const selectMarker = function selectMarker(id) {
 
-      return ns.context.map.markers.find((marker)=>{
-          return (marker.options.externalID=="marker_" + id);
+      const marker =  ns.context.map.markers.find((marker)=>{
+         return marker.options.externalID=="marker_" + id;
       });
 
+      if (marker) ns.context.map.currentMarker = marker;
+
+      return marker;  
+
     };
+
+    /*******************************************************************************/
+
+    const toggleMarker = function togglerMarker(marker,state) {
+      if (!marker) return false;
+
+      const toggledMarker = document.querySelector(".leaflet-marker-icon.toggled");
+          
+      if (toggledMarker)  toggledMarker.classList.remove("toggled");
+
+      if (state) {
+          marker.openPopup();
+      } else {
+          marker.closePopup();
+      }
+      
+      marker._icon.classList.toggle("toggled",state);
+    };
+
+
 
   /*******************************************************************************/
 
   const renderSize = function renderSize(data, settings) {  
-    let total = 0;
-
-    if (settings.dati=="sindaci") {
-      total =  data.totali.voti_sindaco;
-    }
+    let total = (settings.dati=="sindaci") ? data.totali.voti_sindaco : data.totali.voti_lista;
 
     const minSize = 24, maxSize = 128
 
@@ -918,9 +1018,13 @@ LETTERAEMME.context = LETTERAEMME.context || {
               weights.push(Math.ceil(sindaco.perc)/10);
           });
           style += chroma.average(colors, 'lrgb', weights) ;*/
-      }
-      style+= ";"
-    } 
+      } 
+
+    } else if (settings.grafico=="singole") {  
+        style = "border-color:"  + data.listeSorted[0].colore + "; background-image: url(../images/simboli/lista" + data.listeSorted[0].id + ".png);";
+    }
+
+    style+= ";";
     
     return style;
 

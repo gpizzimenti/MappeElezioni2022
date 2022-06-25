@@ -28,13 +28,15 @@ self.onmessage = function (msg) {
         "nome": sezione.properties.title,
         "sezioni": [],
         "sindaci": JSON.parse(JSON.stringify(data.dizionario_sindaci)),
+        "liste": JSON.parse(JSON.stringify(data.dizionario_liste)),
         "totali" : {
           "elettori": 0,
           "votanti": 0,
           "bianche": 0,          
           "nulli": 0,                    
           "contestazioni": 0,                    
-          "voti_sindaco": 0
+          "voti_sindaco": 0,
+          "voti_lista": 0
         }
       };
 
@@ -75,6 +77,22 @@ self.onmessage = function (msg) {
           processedData.totali.contestazioni += contestazioni;
       });
 
+
+      data.liste.filter((el)=>{
+        return el["Sezione"] == sezione.properties.id;
+      }).forEach((lista)=>{
+        let  idLista =  lista["Numero Liste"],
+             voti_validi =  parseInt(lista["Voti validi"],10),
+             tot = parseInt(processedData.liste[idLista].voti,10);
+
+        if (tot)
+          processedData.liste[idLista].voti = tot + voti_validi;
+        else  
+          processedData.liste[idLista].voti = voti_validi;
+
+          processedData.totali.voti_lista += voti_validi;          
+      });      
+
      
       processedData.sezioni.push(sezione.properties.id);
 
@@ -87,6 +105,7 @@ self.onmessage = function (msg) {
     for (let idSezione in db) {
      const sezione =  db[idSezione];
      sezione.sindaciSorted = [];
+     sezione.listeSorted = [];
 
      for (let idSindaco in sezione.sindaci) {
       const sindaco = sezione.sindaci[idSindaco];
@@ -95,8 +114,17 @@ self.onmessage = function (msg) {
      }  
      
      sezione.sindaciSorted = sezione.sindaciSorted.sort((a,b) => {return b.voti - a.voti}); 
+
+     for (let idLista in sezione.liste) {
+      const lista = sezione.liste[idLista];
+      sezione.listeSorted.push(lista);
+      lista.perc =  (sezione.totali.voti_lista>0 && lista.voti>0)  ? parseFloat(((lista.voti/sezione.totali.voti_lista)*100).toFixed(2)) : 0;
+     }  
+     
+     sezione.listeSorted = sezione.listeSorted.sort((a,b) => {return b.voti - a.voti}); 
+
     }
 
-
+//console.log(db);
     return db;
   };  

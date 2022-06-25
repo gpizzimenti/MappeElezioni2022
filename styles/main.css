@@ -78,7 +78,7 @@ body {
     transition: all 1s ease;
     display: flex;
     flex-direction: column;
-    max-height: 55%;
+    max-height: 45%;
 }
 
 #mapNavigator .btnToggler {
@@ -172,7 +172,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: palette(scrollbars, fg) palette(scrollbars, bg);
+    scrollbar-color: palette(scrollbars, #a3a3a3) palette(scrollbars, #dedede);
     margin: 10px;
     padding: 0 10px;
     background: linear-gradient(#fff 33%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #fff 66%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(133, 133, 133, 0.5), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(133, 133, 133, 0.5), rgba(0, 0, 0, 0)) 0 100%;
@@ -207,6 +207,7 @@ body {
     display: flex;
     flex-direction: column;
     border: dashed 2px #e0e0e0;
+    padding: 0 20px;
     margin-bottom: 20px;
 }
 
@@ -231,6 +232,13 @@ body {
     margin-bottom: 20px;
 }
 
+#mapNavigator #fieldsDati {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
 #mapNavigator p {
     font-size: .7em;
 }
@@ -238,6 +246,22 @@ body {
 #mapNavigator a {
     font-weight: bold;
     color: #333;
+}
+
+#mapWrapper[data-dati="sindaci"] [data-dati="sindaci"],
+#mapWrapper[data-dati="liste"] [data-dati="liste"] {
+    display: block;
+}
+
+#mapWrapper[data-dati="sindaci"] [data-dati="liste"],
+#mapWrapper[data-dati="liste"] [data-dati="sindaci"] {
+    display: none;
+    pointer-events: none;
+}
+
+#mapWrapper[data-dati="liste"] #fieldsGrafici {
+    display: none;
+    pointer-events: none;
 }
 
 .ctl-zoom a,
@@ -418,6 +442,18 @@ svg.peity:hover,
     filter: none !important;
 }
 
+
+.bgMarker .singole {
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #FFF;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 @media only screen and (min-width: 600px) {
     #mapWrapper {
         flex-direction: row;
@@ -454,10 +490,18 @@ svg.peity:hover,
     }
 
     .navigatorOpen #mapNavigator {
-        flex: 1 1 450px;
-        max-width: 450px;
+        flex: 1 1 550px;
+        max-width: 550px;
     }
 
+}
+
+.leaflet-popup {
+    width: 320px;
+}
+
+.leaflet-popup-content {
+    margin-right: 5px;
 }
 
 
@@ -471,11 +515,12 @@ svg.peity:hover,
 
 .leaflet-popup .popup h1,
 .leaflet-popup .popup h2 {
+    padding: 0 10px 0 0;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    padding: 0;
+    white-space: normal !important;
 }
 
 .leaflet-popup .popup h1 {
@@ -494,15 +539,51 @@ svg.peity:hover,
     font-weight: bold;
 }
 
+.leaflet-popup .popup li span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1 1 100%;
+    margin-right: 10px;
+}
+
 .leaflet-popup .popup li i {
     font-weight: italic;
 }
 
 .leaflet-popup .popup ul {
-    padding: 0 0 0 0;
+    padding: 0 20px 0 0;
     margin: 20px 0 0 0;
     list-style: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: palette(scrollbars, #a3a3a3) palette(scrollbars, #dedede);
+    max-height: 150px;
+    background: linear-gradient(#fff 33%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #fff 66%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(133, 133, 133, 0.5), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(133, 133, 133, 0.5), rgba(0, 0, 0, 0)) 0 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100% 42px, 100% 42px, 100% 14px, 100% 14px;
 }
+
+
+.leaflet-popup .popup ul::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.leaflet-popup .popup ul::-webkit-scrollbar-thumb {
+    background: #a3a3a3;
+    border-radius: 4px;
+}
+
+.leaflet-popup .popup ul::-webkit-scrollbar-track {
+    background: #dedede;
+    border-radius: 4px;
+}
+
 
 .leaflet-popup .popup ul li {
     position: relative;
@@ -510,6 +591,8 @@ svg.peity:hover,
     font-size: 1em;
     font-weight: normal;
     margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .leaflet-popup .popup ul li::before {
@@ -529,12 +612,37 @@ svg.peity:hover,
 
 #mainChart ul {
     list-style: none;
-    padding: 0;
+    padding: 20px 20px 0 0;
     margin: 0;
     display: flex;
     flex-direction: column;
     flex: 1 1 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: palette(scrollbars, #a3a3a3) palette(scrollbars, #dedede);
+    background: linear-gradient(#fff 33%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #fff 66%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(133, 133, 133, 0.5), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(133, 133, 133, 0.5), rgba(0, 0, 0, 0)) 0 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100% 42px, 100% 42px, 100% 14px, 100% 14px;
 }
+
+#mainChart ul::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+#mainChart ul::-webkit-scrollbar-thumb {
+    background: #a3a3a3;
+    border-radius: 4px;
+}
+
+#mainChart ul::-webkit-scrollbar-track {
+    background: #dedede;
+    border-radius: 4px;
+}
+
 
 #mainChart ul li {
     padding: 0;
@@ -555,8 +663,9 @@ svg.peity:hover,
 
 #mainChart ul:not(:last-child) {
     margin-bottom: 20px;
-}
+    max-height: 450px;
 
+}
 
 #mainChart ul li>p,
 #mainChart ul li>data {
@@ -566,20 +675,26 @@ svg.peity:hover,
     font-size: .8em;
 }
 
-#mainChart ul li>p {
+#mainChart ul li.bar>p {
     flex: 0 0 100px;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+#mainChart ul li>p {
     margin-top: 0;
 }
 
+
 #mainChart ul li>.bar-outer {
     margin-left: 10px;
-    width: 100%;
+    max-width: calc(100% - 30px);
     flex: 1 1 100%;
     height: 1em;
     position: relative;
 }
-
 
 #mainChart ul li>.bar-outer>.bar-inner {
     background-color: var(--bar-color);
@@ -591,9 +706,27 @@ svg.peity:hover,
     border-radius: 3px;
 }
 
+#mainChart ul li>.bar-outer>.bar-inner:after {
+    position: absolute;
+    display: inline-block;
+    content: " ";
+    width: 30px;
+    height: 30px;
+    right: -35px;
+    margin-top: -12.5px;
+    border: solid 5px var(--bar-color);
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    background-color: #FFF;
+    background-image: var(--bar-symbol);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #mainChart ul li>data {
     width: min-content;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
 #mainChart ul li.report>data {
@@ -603,8 +736,8 @@ svg.peity:hover,
 @media only screen and (min-width: 800px) {
 
     .navigatorOpen #mapNavigator {
-        flex: 1 1 550px;
-        max-width: 550px;
+        flex: 1 1 650px;
+        max-width: 650px;
     }
 
     .ctl-zoom a,
