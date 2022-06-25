@@ -1021,7 +1021,7 @@ LETTERAEMME.context = LETTERAEMME.context || {
       } 
 
     } else if (settings.grafico=="singole") {  
-        style = "border-color:"  + data.listeSorted[0].colore + "; background-image: url(../images/simboli/lista" + data.listeSorted[0].id + ".png);";
+        style = "border-color:"  + data.listeSorted[0].colore + "; background-image: url(images/simboli/lista" + data.listeSorted[0].id + ".png);";
     }
 
     style+= ";";
