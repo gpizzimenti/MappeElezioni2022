@@ -259,6 +259,11 @@ body {
     pointer-events: none;
 }
 
+#mapWrapper[data-dati="liste"] #fieldsGrafici {
+    display: none;
+    pointer-events: none;
+}
+
 .ctl-zoom a,
 .ctl-layers a,
 .ctl-panels a,
@@ -437,6 +442,18 @@ svg.peity:hover,
     filter: none !important;
 }
 
+
+.bgMarker .singole {
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #FFF;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 @media only screen and (min-width: 600px) {
     #mapWrapper {
         flex-direction: row;
@@ -595,7 +612,7 @@ svg.peity:hover,
 
 #mainChart ul {
     list-style: none;
-    padding: 0 20px 0 0;
+    padding: 20px 20px 0 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -646,7 +663,7 @@ svg.peity:hover,
 
 #mainChart ul:not(:last-child) {
     margin-bottom: 20px;
-    max-height: 250px;
+    max-height: 450px;
 
 }
 
@@ -673,12 +690,11 @@ svg.peity:hover,
 
 #mainChart ul li>.bar-outer {
     margin-left: 10px;
-    width: 100%;
+    max-width: calc(100% - 30px);
     flex: 1 1 100%;
     height: 1em;
     position: relative;
 }
-
 
 #mainChart ul li>.bar-outer>.bar-inner {
     background-color: var(--bar-color);
@@ -690,9 +706,27 @@ svg.peity:hover,
     border-radius: 3px;
 }
 
+#mainChart ul li>.bar-outer>.bar-inner:after {
+    position: absolute;
+    display: inline-block;
+    content: " ";
+    width: 30px;
+    height: 30px;
+    right: -35px;
+    margin-top: -12.5px;
+    border: solid 5px var(--bar-color);
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 20%);
+    background-color: #FFF;
+    background-image: var(--bar-symbol);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #mainChart ul li>data {
     width: min-content;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
 #mainChart ul li.report>data {

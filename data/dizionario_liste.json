@@ -1,0 +1,170 @@
+{
+    "1": {
+        "id": 1,
+        "nome": "PD PARTITO DEMOCRATICO",
+        "totale": 0,
+        "idSindaco": 1,
+        "colore": "#FF1A00"
+    },
+    "2": {
+        "id": 2,
+        "nome": "MESSINA IN COMUNE - STURNIOLO SINDACO",
+        "totale": 0,
+        "idSindaco": 2,
+        "colore": "#760600"
+    },
+    "3": {
+        "id": 3,
+        "nome": "MAURIZIO CROCE SINDACO",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "4": {
+        "id": 4,
+        "nome": "FRANCO DE DOMENICO SINDACO",
+        "totale": 0,
+        "idSindaco": 1,
+        "colore": "#FF1A00"
+    },
+    "5": {
+        "id": 5,
+        "nome": "ORA SICILIA",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "6": {
+        "id": 6,
+        "nome": "MOVIMENTO 5 STELLE 2050",
+        "totale": 0,
+        "idSindaco": 1,
+        "colore": "#FF1A00"
+    },
+    "7": {
+        "id": 7,
+        "nome": "FORZA ITALIA BERLUSCONI",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "8": {
+        "id": 8,
+        "nome": "AMO MESSINA - BASILE SINDACO - SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "9": {
+        "id": 9,
+        "nome": "GIOV@NI PER MESSINA",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "10": {
+        "id": 10,
+        "nome": "SALVATORE TOTARO SINDACO DI MESSINA UCDL",
+        "totale": 0,
+        "idSindaco": 3,
+        "colore": "#00CDD1"
+    },
+    "11": {
+        "id": 11,
+        "nome": "BASILE SINDACO DI MESSINA – DE LUCA PRESIDENTE - SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "12": {
+        "id": 12,
+        "nome": "GLI AMICI DI FEDERICO – BASILE SINDACO – SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "13": {
+        "id": 13,
+        "nome": "PARTITO ANIMALISTA - LA SPIGA",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "14": {
+        "id": 14,
+        "nome": "PRIMA L'ITALIA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "15": {
+        "id": 15,
+        "nome": "CON DE LUCA PER BASILE SINDACO – SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "16": {
+        "id": 16,
+        "nome": "ITALIA – UNIONE DI CENTRO",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "17": {
+        "id": 17,
+        "nome": "NOI CON L’ITALIA DC – DEMOCRAZIA CRISTIANA",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "18": {
+        "id": 18,
+        "nome": "GIORGIA MELONI - FRATELLI D'ITALIA",
+        "totale": 0,
+        "idSindaco": 5,
+        "colore": "#162A88"
+    },
+    "19": {
+        "id": 19,
+        "nome": "MAI PIU’ BARACCHE – BASILE SINDACO – SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "20": {
+        "id": 20,
+        "nome": "TOTARO SINDACO FUTURO TRASPARENZA E LIBERTA",
+        "totale": 0,
+        "idSindaco": 3,
+        "colore": "#00CDD1"
+    },
+    "21": {
+        "id": 21,
+        "nome": "ORGOGLIO MESSINESE – BASILE SINDACO – SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "22": {
+        "id": 22,
+        "nome": "SENZA SE E SENZA MA – BASILE SINDACO – SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "23": {
+        "id": 23,
+        "nome": "INSIEME PER IL LAVORO CLARA CROCE’ – BASILE SINDACO – SICILIA VERA",
+        "totale": 0,
+        "idSindaco": 4,
+        "colore": "#FCDA0B"
+    },
+    "24": {
+        "id": 24,
+        "nome": "COALIZIONE CIVICA",
+        "totale": 0,
+        "idSindaco": 1,
+        "colore": "#FF1A00"
+    }
+}
